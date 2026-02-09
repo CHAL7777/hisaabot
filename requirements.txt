@@ -1,0 +1,10 @@
+aiogram==3.10.0
+python-dotenv==1.0.0
+sqlalchemy==2.0.25
+pg8000==1.31.2
+alembic==1.13.1
+apscheduler==3.10.4
+pydantic==2.10.6
+redis==5.0.1
+psycopg2-binary
+pytz
