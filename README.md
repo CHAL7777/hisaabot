@@ -16,5 +16,5 @@ A comprehensive Telegram bot for micro-business management. Track sales, expense
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/microbiz-bot.git
-cd microbiz-bot# hisaabot
+git clone https://github.com/CHAL7777/hisaabot.git
+cd hisaabot
