@@ -1,0 +1,1804 @@
+2026-02-09 12:23:34,330 - __main__ - INFO - Starting MicroBiz Bot...
+2026-02-09 12:23:34,331 - __main__ - ERROR - Failed to start bot: 'contextlib._GeneratorContextManager' object does not support the asynchronous context manager protocol (missed __aexit__ method) but it supports the context manager protocol. Did you mean to use 'with'?
+2026-02-09 12:24:36,627 - __main__ - INFO - Starting MicroBiz Bot...
+2026-02-09 12:24:36,654 - __main__ - ERROR - Failed to start bot: module 'app.handlers.help' has no attribute 'router'
+2026-02-09 12:25:44,919 - __main__ - INFO - Starting MicroBiz Bot...
+2026-02-09 12:25:45,380 - aiogram.dispatcher - INFO - Start polling
+2026-02-09 12:25:45,492 - aiogram.dispatcher - INFO - Run polling for bot @hiisaabot id=8596581643 - 'Hisaab'
+2026-02-09 12:25:58,052 - aiogram.dispatcher - WARNING - Received SIGTERM signal
+2026-02-09 12:25:58,053 - aiogram.dispatcher - INFO - Polling stopped for bot @hiisaabot id=8596581643 - 'Hisaab'
+2026-02-09 12:25:58,053 - aiogram.dispatcher - INFO - Polling stopped
+2026-02-09 12:26:29,171 - __main__ - INFO - Starting MicroBiz Bot...
+2026-02-09 12:26:29,667 - aiogram.dispatcher - INFO - Start polling
+2026-02-09 12:26:29,838 - aiogram.dispatcher - INFO - Run polling for bot @hiisaabot id=8596581643 - 'Hisaab'
+2026-02-09 12:27:18,380 - __main__ - INFO - Starting MicroBiz Bot...
+2026-02-09 12:27:18,912 - aiogram.dispatcher - INFO - Start polling
+2026-02-09 12:27:19,093 - aiogram.dispatcher - INFO - Run polling for bot @hiisaabot id=8596581643 - 'Hisaab'
+2026-02-09 12:27:19,209 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:27:19,209 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8596581643)
+2026-02-09 12:27:23,324 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:27:23,324 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8596581643)
+2026-02-09 12:27:24,518 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:27:24,518 - aiogram.dispatcher - WARNING - Sleep for 1.249243 seconds and try again... (tryings = 1, bot id = 8596581643)
+2026-02-09 12:27:25,504 - __main__ - INFO - Starting MicroBiz Bot...
+2026-02-09 12:27:25,867 - aiogram.dispatcher - INFO - Start polling
+2026-02-09 12:27:25,983 - aiogram.dispatcher - INFO - Run polling for bot @hiisaabot id=8596581643 - 'Hisaab'
+2026-02-09 12:27:28,883 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:27:28,884 - aiogram.dispatcher - WARNING - Sleep for 1.507073 seconds and try again... (tryings = 1, bot id = 8596581643)
+2026-02-09 12:27:29,095 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:27:29,095 - aiogram.dispatcher - WARNING - Sleep for 1.556860 seconds and try again... (tryings = 2, bot id = 8596581643)
+2026-02-09 12:27:30,513 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:27:30,513 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8596581643)
+2026-02-09 12:27:33,889 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:27:33,889 - aiogram.dispatcher - WARNING - Sleep for 2.031256 seconds and try again... (tryings = 2, bot id = 8596581643)
+2026-02-09 12:27:34,698 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:27:34,698 - aiogram.dispatcher - WARNING - Sleep for 2.074915 seconds and try again... (tryings = 3, bot id = 8596581643)
+2026-02-09 12:27:36,049 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:27:36,049 - aiogram.dispatcher - WARNING - Sleep for 1.279175 seconds and try again... (tryings = 1, bot id = 8596581643)
+2026-02-09 12:27:39,899 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:27:39,900 - aiogram.dispatcher - WARNING - Sleep for 2.719256 seconds and try again... (tryings = 3, bot id = 8596581643)
+2026-02-09 12:27:40,463 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:27:40,464 - aiogram.dispatcher - WARNING - Sleep for 2.670485 seconds and try again... (tryings = 4, bot id = 8596581643)
+2026-02-09 12:27:42,739 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:27:42,740 - aiogram.dispatcher - WARNING - Sleep for 1.630380 seconds and try again... (tryings = 2, bot id = 8596581643)
+2026-02-09 12:27:46,259 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:27:46,259 - aiogram.dispatcher - WARNING - Sleep for 3.577722 seconds and try again... (tryings = 4, bot id = 8596581643)
+2026-02-09 12:27:47,294 - aiogram.dispatcher - INFO - Connection established (tryings = 3, bot id = 8596581643)
+2026-02-09 12:27:47,566 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:27:47,566 - aiogram.dispatcher - WARNING - Sleep for 3.383323 seconds and try again... (tryings = 5, bot id = 8596581643)
+2026-02-09 12:27:47,716 - aiogram.event - INFO - Update id=442939999 is handled. Duration 420 ms by bot id=8596581643
+2026-02-09 12:27:49,953 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:27:49,953 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8596581643)
+2026-02-09 12:27:53,198 - aiogram.dispatcher - INFO - Connection established (tryings = 6, bot id = 8596581643)
+2026-02-09 12:27:53,704 - aiogram.event - INFO - Update id=442940000 is handled. Duration 505 ms by bot id=8596581643
+2026-02-09 12:27:54,113 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:27:54,113 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:27:54,113 - aiogram.dispatcher - WARNING - Sleep for 4.444620 seconds and try again... (tryings = 5, bot id = 8596581643)
+2026-02-09 12:27:54,113 - aiogram.dispatcher - WARNING - Sleep for 1.336319 seconds and try again... (tryings = 1, bot id = 8596581643)
+2026-02-09 12:27:55,648 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:27:55,648 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8596581643)
+2026-02-09 12:27:58,719 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:27:58,719 - aiogram.dispatcher - WARNING - Sleep for 1.370795 seconds and try again... (tryings = 1, bot id = 8596581643)
+2026-02-09 12:27:59,776 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:27:59,776 - aiogram.dispatcher - WARNING - Sleep for 1.721837 seconds and try again... (tryings = 2, bot id = 8596581643)
+2026-02-09 12:28:02,480 - aiogram.dispatcher - INFO - Connection established (tryings = 3, bot id = 8596581643)
+2026-02-09 12:28:02,662 - aiogram.event - INFO - Update id=442940001 is handled. Duration 180 ms by bot id=8596581643
+2026-02-09 12:28:03,225 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:28:03,225 - aiogram.dispatcher - WARNING - Sleep for 4.807580 seconds and try again... (tryings = 6, bot id = 8596581643)
+2026-02-09 12:28:04,609 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:28:04,609 - aiogram.dispatcher - WARNING - Sleep for 1.573537 seconds and try again... (tryings = 2, bot id = 8596581643)
+2026-02-09 12:28:04,924 - aiogram.event - INFO - Update id=442940002 is handled. Duration 163 ms by bot id=8596581643
+2026-02-09 12:29:14,893 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2026-02-09 12:29:14,894 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8596581643)
+2026-02-09 12:29:16,889 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2026-02-09 12:29:16,889 - aiogram.dispatcher - WARNING - Sleep for 2.029977 seconds and try again... (tryings = 3, bot id = 8596581643)
+2026-02-09 12:29:18,946 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2026-02-09 12:29:18,946 - aiogram.dispatcher - WARNING - Sleep for 4.985485 seconds and try again... (tryings = 7, bot id = 8596581643)
+2026-02-09 12:30:26,919 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2026-02-09 12:30:26,920 - aiogram.dispatcher - WARNING - Sleep for 1.279024 seconds and try again... (tryings = 1, bot id = 8596581643)
+2026-02-09 12:30:29,921 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2026-02-09 12:30:29,921 - aiogram.dispatcher - WARNING - Sleep for 2.680425 seconds and try again... (tryings = 4, bot id = 8596581643)
+2026-02-09 12:30:33,621 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [None]
+2026-02-09 12:30:33,621 - aiogram.dispatcher - WARNING - Sleep for 1.655105 seconds and try again... (tryings = 2, bot id = 8596581643)
+2026-02-09 12:30:34,923 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2026-02-09 12:30:34,923 - aiogram.dispatcher - WARNING - Sleep for 4.881539 seconds and try again... (tryings = 8, bot id = 8596581643)
+2026-02-09 12:30:36,690 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [None]
+2026-02-09 12:30:36,690 - aiogram.dispatcher - WARNING - Sleep for 3.401429 seconds and try again... (tryings = 5, bot id = 8596581643)
+2026-02-09 12:30:39,794 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [None]
+2026-02-09 12:30:39,794 - aiogram.dispatcher - WARNING - Sleep for 2.043204 seconds and try again... (tryings = 3, bot id = 8596581643)
+2026-02-09 12:30:42,873 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [None]
+2026-02-09 12:30:42,873 - aiogram.dispatcher - WARNING - Sleep for 5.064373 seconds and try again... (tryings = 9, bot id = 8596581643)
+2026-02-09 12:30:42,873 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [None]
+2026-02-09 12:30:42,874 - aiogram.dispatcher - WARNING - Sleep for 2.531117 seconds and try again... (tryings = 4, bot id = 8596581643)
+2026-02-09 12:30:42,874 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [None]
+2026-02-09 12:30:42,874 - aiogram.dispatcher - WARNING - Sleep for 4.497279 seconds and try again... (tryings = 6, bot id = 8596581643)
+2026-02-09 12:31:55,456 - __main__ - INFO - Starting MicroBiz Bot...
+2026-02-09 12:31:56,038 - aiogram.dispatcher - INFO - Start polling
+2026-02-09 12:31:56,149 - aiogram.dispatcher - INFO - Run polling for bot @hiisaabot id=8596581643 - 'Hisaab'
+2026-02-09 12:32:01,490 - aiogram.event - INFO - Update id=442940004 is handled. Duration 384 ms by bot id=8596581643
+2026-02-09 12:32:03,111 - aiogram.event - INFO - Update id=442940005 is handled. Duration 193 ms by bot id=8596581643
+2026-02-09 12:32:08,322 - aiogram.dispatcher - WARNING - Received SIGTERM signal
+2026-02-09 12:32:08,322 - aiogram.dispatcher - INFO - Polling stopped for bot @hiisaabot id=8596581643 - 'Hisaab'
+2026-02-09 12:32:08,322 - aiogram.dispatcher - INFO - Polling stopped
+2026-02-09 12:32:38,185 - __main__ - INFO - Starting MicroBiz Bot...
+2026-02-09 12:32:38,651 - aiogram.dispatcher - INFO - Start polling
+2026-02-09 12:32:38,768 - aiogram.dispatcher - INFO - Run polling for bot @hiisaabot id=8596581643 - 'Hisaab'
+2026-02-09 12:32:42,927 - aiogram.event - INFO - Update id=442940008 is handled. Duration 451 ms by bot id=8596581643
+2026-02-09 12:32:48,113 - aiogram.event - INFO - Update id=442940009 is handled. Duration 341 ms by bot id=8596581643
+2026-02-09 12:33:04,692 - aiogram.event - INFO - Update id=442940010 is handled. Duration 160 ms by bot id=8596581643
+2026-02-09 12:33:21,219 - aiogram.event - INFO - Update id=442940011 is handled. Duration 143 ms by bot id=8596581643
+2026-02-09 12:33:31,523 - aiogram.event - INFO - Update id=442940012 is handled. Duration 192 ms by bot id=8596581643
+2026-02-09 12:33:33,466 - aiogram.event - INFO - Update id=442940013 is handled. Duration 189 ms by bot id=8596581643
+2026-02-09 12:33:35,693 - aiogram.event - INFO - Update id=442940014 is handled. Duration 149 ms by bot id=8596581643
+2026-02-09 12:34:33,441 - aiogram.event - INFO - Update id=442940015 is handled. Duration 172 ms by bot id=8596581643
+2026-02-09 12:35:11,928 - aiogram.event - INFO - Update id=442940016 is not handled. Duration 30003 ms by bot id=8596581643
+2026-02-09 12:35:11,928 - aiogram.event - ERROR - Cause exception while process update id=442940016 by bot id=8596581643
+TimeoutError: QueuePool limit of size 5 overflow 10 reached, connection timed out, timeout 30.00 (Background on this error at: https://sqlalche.me/e/20/3o7r)
+Traceback (most recent call last):
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/dispatcher/dispatcher.py", line 320, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/dispatcher/dispatcher.py", line 164, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/dispatcher/middlewares/error.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 58, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/fsm/middleware.py", line 43, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/dispatcher/event/telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/dispatcher/router.py", line 161, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/dispatcher/router.py", line 153, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/dispatcher/router.py", line 189, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/dispatcher/router.py", line 161, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/dispatcher/router.py", line 153, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/dispatcher/router.py", line 181, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/dispatcher/event/telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/app/middlewares/auth.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/app/handlers/sales.py", line 124, in cmd_today
+    user = get_user(db, message.from_user.id)
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/app/database/crud.py", line 9, in get_user
+    return db.query(User).filter(User.telegram_id == telegram_id).first()
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/sqlalchemy/orm/query.py", line 2728, in first
+    return self.limit(1)._iter().first()  # type: ignore
+           ~~~~~~~~~~~~~~~~~~~^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/sqlalchemy/orm/query.py", line 2827, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+                                                  ~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+        params,
+        ^^^^^^^
+        execution_options={"_sa_orm_load_options": self.load_options},
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/sqlalchemy/orm/session.py", line 2362, in execute
+    return self._execute_internal(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+    ...<4 lines>...
+        _add_event=_add_event,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/sqlalchemy/orm/session.py", line 2237, in _execute_internal
+    conn = self._connection_for_bind(bind)
+  File "/home/chaldev/.local/lib/python3.14/site-packages/sqlalchemy/orm/session.py", line 2106, in _connection_for_bind
+    return trans._connection_for_bind(engine, execution_options)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 2, in _connection_for_bind
+  File "/home/chaldev/.local/lib/python3.14/site-packages/sqlalchemy/orm/state_changes.py", line 139, in _go
+    ret_value = fn(self, *arg, **kw)
+  File "/home/chaldev/.local/lib/python3.14/site-packages/sqlalchemy/orm/session.py", line 1189, in _connection_for_bind
+    conn = bind.connect()
+  File "/home/chaldev/.local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3278, in connect
+    return self._connection_cls(self)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 146, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3302, in raw_connection
+    return self.pool.connect()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 449, in connect
+    return _ConnectionFairy._checkout(self)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 1263, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/home/chaldev/.local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 712, in checkout
+    rec = pool._do_get()
+  File "/home/chaldev/.local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 168, in _do_get
+    raise exc.TimeoutError(
+    ...<4 lines>...
+    )
+sqlalchemy.exc.TimeoutError: QueuePool limit of size 5 overflow 10 reached, connection timed out, timeout 30.00 (Background on this error at: https://sqlalche.me/e/20/3o7r)
+2026-02-09 12:35:41,949 - aiogram.event - INFO - Update id=442940017 is not handled. Duration 30002 ms by bot id=8596581643
+2026-02-09 12:35:41,949 - aiogram.event - ERROR - Cause exception while process update id=442940017 by bot id=8596581643
+TimeoutError: QueuePool limit of size 5 overflow 10 reached, connection timed out, timeout 30.00 (Background on this error at: https://sqlalche.me/e/20/3o7r)
+Traceback (most recent call last):
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/dispatcher/dispatcher.py", line 320, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/dispatcher/dispatcher.py", line 164, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/dispatcher/middlewares/error.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 58, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/fsm/middleware.py", line 43, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/dispatcher/event/telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/dispatcher/router.py", line 161, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/dispatcher/router.py", line 153, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/dispatcher/router.py", line 189, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/dispatcher/router.py", line 161, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/dispatcher/router.py", line 153, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/dispatcher/router.py", line 181, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/dispatcher/event/telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/app/middlewares/auth.py", line 21, in __call__
+    user = get_user(db, event.from_user.id)
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/app/database/crud.py", line 9, in get_user
+    return db.query(User).filter(User.telegram_id == telegram_id).first()
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/sqlalchemy/orm/query.py", line 2728, in first
+    return self.limit(1)._iter().first()  # type: ignore
+           ~~~~~~~~~~~~~~~~~~~^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/sqlalchemy/orm/query.py", line 2827, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+                                                  ~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+        params,
+        ^^^^^^^
+        execution_options={"_sa_orm_load_options": self.load_options},
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/sqlalchemy/orm/session.py", line 2362, in execute
+    return self._execute_internal(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+    ...<4 lines>...
+        _add_event=_add_event,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/sqlalchemy/orm/session.py", line 2237, in _execute_internal
+    conn = self._connection_for_bind(bind)
+  File "/home/chaldev/.local/lib/python3.14/site-packages/sqlalchemy/orm/session.py", line 2106, in _connection_for_bind
+    return trans._connection_for_bind(engine, execution_options)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 2, in _connection_for_bind
+  File "/home/chaldev/.local/lib/python3.14/site-packages/sqlalchemy/orm/state_changes.py", line 139, in _go
+    ret_value = fn(self, *arg, **kw)
+  File "/home/chaldev/.local/lib/python3.14/site-packages/sqlalchemy/orm/session.py", line 1189, in _connection_for_bind
+    conn = bind.connect()
+  File "/home/chaldev/.local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3278, in connect
+    return self._connection_cls(self)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 146, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3302, in raw_connection
+    return self.pool.connect()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 449, in connect
+    return _ConnectionFairy._checkout(self)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 1263, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/home/chaldev/.local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 712, in checkout
+    rec = pool._do_get()
+  File "/home/chaldev/.local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 168, in _do_get
+    raise exc.TimeoutError(
+    ...<4 lines>...
+    )
+sqlalchemy.exc.TimeoutError: QueuePool limit of size 5 overflow 10 reached, connection timed out, timeout 30.00 (Background on this error at: https://sqlalche.me/e/20/3o7r)
+2026-02-09 12:36:11,959 - aiogram.event - INFO - Update id=442940019 is not handled. Duration 30002 ms by bot id=8596581643
+2026-02-09 12:36:11,959 - aiogram.event - ERROR - Cause exception while process update id=442940019 by bot id=8596581643
+TimeoutError: QueuePool limit of size 5 overflow 10 reached, connection timed out, timeout 30.00 (Background on this error at: https://sqlalche.me/e/20/3o7r)
+Traceback (most recent call last):
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/dispatcher/dispatcher.py", line 320, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/dispatcher/dispatcher.py", line 164, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/dispatcher/middlewares/error.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 58, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/fsm/middleware.py", line 43, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/dispatcher/event/telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/dispatcher/router.py", line 161, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/dispatcher/router.py", line 153, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/dispatcher/router.py", line 189, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/dispatcher/router.py", line 161, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/dispatcher/router.py", line 153, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/dispatcher/router.py", line 181, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/dispatcher/event/telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/app/middlewares/auth.py", line 21, in __call__
+    user = get_user(db, event.from_user.id)
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/app/database/crud.py", line 9, in get_user
+    return db.query(User).filter(User.telegram_id == telegram_id).first()
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/sqlalchemy/orm/query.py", line 2728, in first
+    return self.limit(1)._iter().first()  # type: ignore
+           ~~~~~~~~~~~~~~~~~~~^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/sqlalchemy/orm/query.py", line 2827, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+                                                  ~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+        params,
+        ^^^^^^^
+        execution_options={"_sa_orm_load_options": self.load_options},
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/sqlalchemy/orm/session.py", line 2362, in execute
+    return self._execute_internal(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+    ...<4 lines>...
+        _add_event=_add_event,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/sqlalchemy/orm/session.py", line 2237, in _execute_internal
+    conn = self._connection_for_bind(bind)
+  File "/home/chaldev/.local/lib/python3.14/site-packages/sqlalchemy/orm/session.py", line 2106, in _connection_for_bind
+    return trans._connection_for_bind(engine, execution_options)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 2, in _connection_for_bind
+  File "/home/chaldev/.local/lib/python3.14/site-packages/sqlalchemy/orm/state_changes.py", line 139, in _go
+    ret_value = fn(self, *arg, **kw)
+  File "/home/chaldev/.local/lib/python3.14/site-packages/sqlalchemy/orm/session.py", line 1189, in _connection_for_bind
+    conn = bind.connect()
+  File "/home/chaldev/.local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3278, in connect
+    return self._connection_cls(self)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 146, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3302, in raw_connection
+    return self.pool.connect()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 449, in connect
+    return _ConnectionFairy._checkout(self)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 1263, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/home/chaldev/.local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 712, in checkout
+    rec = pool._do_get()
+  File "/home/chaldev/.local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 168, in _do_get
+    raise exc.TimeoutError(
+    ...<4 lines>...
+    )
+sqlalchemy.exc.TimeoutError: QueuePool limit of size 5 overflow 10 reached, connection timed out, timeout 30.00 (Background on this error at: https://sqlalche.me/e/20/3o7r)
+2026-02-09 12:36:41,967 - aiogram.event - INFO - Update id=442940021 is not handled. Duration 60010 ms by bot id=8596581643
+2026-02-09 12:36:41,968 - aiogram.event - ERROR - Cause exception while process update id=442940021 by bot id=8596581643
+TimeoutError: QueuePool limit of size 5 overflow 10 reached, connection timed out, timeout 30.00 (Background on this error at: https://sqlalche.me/e/20/3o7r)
+Traceback (most recent call last):
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/dispatcher/dispatcher.py", line 320, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/dispatcher/dispatcher.py", line 164, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/dispatcher/middlewares/error.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 58, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/fsm/middleware.py", line 43, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/dispatcher/event/telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/dispatcher/router.py", line 161, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/dispatcher/router.py", line 153, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/dispatcher/router.py", line 189, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/dispatcher/router.py", line 161, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/dispatcher/router.py", line 153, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/dispatcher/router.py", line 181, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/dispatcher/event/telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/app/middlewares/auth.py", line 21, in __call__
+    user = get_user(db, event.from_user.id)
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/app/database/crud.py", line 9, in get_user
+    return db.query(User).filter(User.telegram_id == telegram_id).first()
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/sqlalchemy/orm/query.py", line 2728, in first
+    return self.limit(1)._iter().first()  # type: ignore
+           ~~~~~~~~~~~~~~~~~~~^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/sqlalchemy/orm/query.py", line 2827, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+                                                  ~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+        params,
+        ^^^^^^^
+        execution_options={"_sa_orm_load_options": self.load_options},
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/sqlalchemy/orm/session.py", line 2362, in execute
+    return self._execute_internal(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+    ...<4 lines>...
+        _add_event=_add_event,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/sqlalchemy/orm/session.py", line 2237, in _execute_internal
+    conn = self._connection_for_bind(bind)
+  File "/home/chaldev/.local/lib/python3.14/site-packages/sqlalchemy/orm/session.py", line 2106, in _connection_for_bind
+    return trans._connection_for_bind(engine, execution_options)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 2, in _connection_for_bind
+  File "/home/chaldev/.local/lib/python3.14/site-packages/sqlalchemy/orm/state_changes.py", line 139, in _go
+    ret_value = fn(self, *arg, **kw)
+  File "/home/chaldev/.local/lib/python3.14/site-packages/sqlalchemy/orm/session.py", line 1189, in _connection_for_bind
+    conn = bind.connect()
+  File "/home/chaldev/.local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3278, in connect
+    return self._connection_cls(self)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 146, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3302, in raw_connection
+    return self.pool.connect()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 449, in connect
+    return _ConnectionFairy._checkout(self)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 1263, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/home/chaldev/.local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 712, in checkout
+    rec = pool._do_get()
+  File "/home/chaldev/.local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 168, in _do_get
+    raise exc.TimeoutError(
+    ...<4 lines>...
+    )
+sqlalchemy.exc.TimeoutError: QueuePool limit of size 5 overflow 10 reached, connection timed out, timeout 30.00 (Background on this error at: https://sqlalche.me/e/20/3o7r)
+2026-02-09 12:37:11,977 - aiogram.event - INFO - Update id=442940020 is not handled. Duration 90020 ms by bot id=8596581643
+2026-02-09 12:37:11,977 - aiogram.event - ERROR - Cause exception while process update id=442940020 by bot id=8596581643
+TimeoutError: QueuePool limit of size 5 overflow 10 reached, connection timed out, timeout 30.00 (Background on this error at: https://sqlalche.me/e/20/3o7r)
+Traceback (most recent call last):
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/dispatcher/dispatcher.py", line 320, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/dispatcher/dispatcher.py", line 164, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/dispatcher/middlewares/error.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 58, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/fsm/middleware.py", line 43, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/dispatcher/event/telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/dispatcher/router.py", line 161, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/dispatcher/router.py", line 153, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/dispatcher/router.py", line 189, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/dispatcher/router.py", line 161, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/dispatcher/router.py", line 153, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/dispatcher/router.py", line 181, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/dispatcher/event/telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/app/middlewares/auth.py", line 21, in __call__
+    user = get_user(db, event.from_user.id)
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/app/database/crud.py", line 9, in get_user
+    return db.query(User).filter(User.telegram_id == telegram_id).first()
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/sqlalchemy/orm/query.py", line 2728, in first
+    return self.limit(1)._iter().first()  # type: ignore
+           ~~~~~~~~~~~~~~~~~~~^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/sqlalchemy/orm/query.py", line 2827, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+                                                  ~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+        params,
+        ^^^^^^^
+        execution_options={"_sa_orm_load_options": self.load_options},
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/sqlalchemy/orm/session.py", line 2362, in execute
+    return self._execute_internal(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+    ...<4 lines>...
+        _add_event=_add_event,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/sqlalchemy/orm/session.py", line 2237, in _execute_internal
+    conn = self._connection_for_bind(bind)
+  File "/home/chaldev/.local/lib/python3.14/site-packages/sqlalchemy/orm/session.py", line 2106, in _connection_for_bind
+    return trans._connection_for_bind(engine, execution_options)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 2, in _connection_for_bind
+  File "/home/chaldev/.local/lib/python3.14/site-packages/sqlalchemy/orm/state_changes.py", line 139, in _go
+    ret_value = fn(self, *arg, **kw)
+  File "/home/chaldev/.local/lib/python3.14/site-packages/sqlalchemy/orm/session.py", line 1189, in _connection_for_bind
+    conn = bind.connect()
+  File "/home/chaldev/.local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3278, in connect
+    return self._connection_cls(self)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 146, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3302, in raw_connection
+    return self.pool.connect()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 449, in connect
+    return _ConnectionFairy._checkout(self)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 1263, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/home/chaldev/.local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 712, in checkout
+    rec = pool._do_get()
+  File "/home/chaldev/.local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 168, in _do_get
+    raise exc.TimeoutError(
+    ...<4 lines>...
+    )
+sqlalchemy.exc.TimeoutError: QueuePool limit of size 5 overflow 10 reached, connection timed out, timeout 30.00 (Background on this error at: https://sqlalche.me/e/20/3o7r)
+2026-02-09 12:37:11,984 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2026-02-09 12:37:11,985 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2026-02-09 12:37:11,985 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2026-02-09 12:37:11,985 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2026-02-09 12:37:11,987 - aiogram.dispatcher - INFO - Polling stopped for bot @hiisaabot id=8596581643 - 'Hisaab'
+2026-02-09 12:37:11,987 - aiogram.dispatcher - INFO - Polling stopped
+2026-02-09 12:42:15,248 - __main__ - INFO - Starting MicroBiz Bot...
+2026-02-09 12:42:15,832 - aiogram.dispatcher - INFO - Start polling
+2026-02-09 12:42:15,952 - aiogram.dispatcher - INFO - Run polling for bot @hiisaabot id=8596581643 - 'Hisaab'
+2026-02-09 12:42:26,462 - aiogram.event - INFO - Update id=442940024 is handled. Duration 411 ms by bot id=8596581643
+2026-02-09 12:42:30,046 - aiogram.event - INFO - Update id=442940025 is handled. Duration 209 ms by bot id=8596581643
+2026-02-09 12:42:42,328 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2026-02-09 12:42:42,329 - aiogram.dispatcher - INFO - Polling stopped for bot @hiisaabot id=8596581643 - 'Hisaab'
+2026-02-09 12:42:42,329 - aiogram.dispatcher - INFO - Polling stopped
+2026-02-09 12:42:51,379 - __main__ - INFO - Starting MicroBiz Bot...
+2026-02-09 12:42:51,842 - aiogram.dispatcher - INFO - Start polling
+2026-02-09 12:42:51,960 - aiogram.dispatcher - INFO - Run polling for bot @hiisaabot id=8596581643 - 'Hisaab'
+2026-02-09 12:42:54,815 - aiogram.event - INFO - Update id=442940026 is handled. Duration 1139 ms by bot id=8596581643
+2026-02-09 12:42:58,916 - aiogram.event - INFO - Update id=442940027 is handled. Duration 203 ms by bot id=8596581643
+2026-02-09 12:43:00,635 - aiogram.event - INFO - Update id=442940028 is handled. Duration 208 ms by bot id=8596581643
+2026-02-09 12:43:02,640 - aiogram.event - INFO - Update id=442940029 is handled. Duration 247 ms by bot id=8596581643
+2026-02-09 12:43:04,045 - aiogram.event - INFO - Update id=442940030 is handled. Duration 152 ms by bot id=8596581643
+2026-02-09 12:43:05,260 - aiogram.event - INFO - Update id=442940031 is handled. Duration 162 ms by bot id=8596581643
+2026-02-09 12:43:17,451 - aiogram.event - INFO - Update id=442940032 is handled. Duration 199 ms by bot id=8596581643
+2026-02-09 12:43:24,016 - aiogram.event - INFO - Update id=442940033 is handled. Duration 169 ms by bot id=8596581643
+2026-02-09 12:43:25,994 - aiogram.event - INFO - Update id=442940034 is handled. Duration 145 ms by bot id=8596581643
+2026-02-09 12:43:27,920 - aiogram.event - INFO - Update id=442940035 is handled. Duration 155 ms by bot id=8596581643
+2026-02-09 12:43:30,449 - aiogram.event - INFO - Update id=442940036 is not handled. Duration 114 ms by bot id=8596581643
+2026-02-09 12:43:30,449 - aiogram.event - ERROR - Cause exception while process update id=442940036 by bot id=8596581643
+TelegramBadRequest: Telegram server says - Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 316
+Traceback (most recent call last):
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/dispatcher/dispatcher.py", line 320, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/dispatcher/dispatcher.py", line 164, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/dispatcher/middlewares/error.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 58, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/fsm/middleware.py", line 43, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/dispatcher/event/telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/dispatcher/router.py", line 161, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/dispatcher/router.py", line 153, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/dispatcher/router.py", line 189, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/dispatcher/router.py", line 161, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/dispatcher/router.py", line 153, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/dispatcher/router.py", line 181, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/dispatcher/event/telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/app/middlewares/auth.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/app/handlers/start.py", line 87, in cmd_settings
+    await message.answer(settings_text, parse_mode="Markdown")
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/methods/base.py", line 84, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/client/bot.py", line 485, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/client/session/base.py", line 259, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/client/session/aiohttp.py", line 177, in make_request
+    response = self.check_response(
+        bot=bot,
+    ...<2 lines>...
+        content=raw_result,
+    )
+  File "/home/chaldev/.local/lib/python3.14/site-packages/aiogram/client/session/base.py", line 121, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 316
+2026-02-09 12:43:58,992 - __main__ - INFO - Starting MicroBiz Bot...
+2026-02-09 12:43:59,665 - aiogram.dispatcher - INFO - Start polling
+2026-02-09 12:43:59,950 - aiogram.dispatcher - INFO - Run polling for bot @hiisaabot id=8596581643 - 'Hisaab'
+2026-02-09 12:44:00,160 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:44:00,160 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8596581643)
+2026-02-09 12:44:04,277 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:44:04,277 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8596581643)
+2026-02-09 12:44:05,387 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:44:05,387 - aiogram.dispatcher - WARNING - Sleep for 1.255497 seconds and try again... (tryings = 1, bot id = 8596581643)
+2026-02-09 12:44:09,771 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:44:09,771 - aiogram.dispatcher - WARNING - Sleep for 1.368432 seconds and try again... (tryings = 1, bot id = 8596581643)
+2026-02-09 12:44:11,251 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:44:11,252 - aiogram.dispatcher - WARNING - Sleep for 1.606066 seconds and try again... (tryings = 2, bot id = 8596581643)
+2026-02-09 12:44:11,740 - aiogram.dispatcher - INFO - Connection established (tryings = 2, bot id = 8596581643)
+2026-02-09 12:44:12,198 - aiogram.event - INFO - Update id=442940037 is handled. Duration 456 ms by bot id=8596581643
+2026-02-09 12:44:15,972 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:44:15,972 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8596581643)
+2026-02-09 12:44:17,084 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:44:17,085 - aiogram.dispatcher - WARNING - Sleep for 2.219424 seconds and try again... (tryings = 3, bot id = 8596581643)
+2026-02-09 12:44:18,554 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 8596581643)
+2026-02-09 12:44:18,702 - aiogram.event - INFO - Update id=442940038 is handled. Duration 147 ms by bot id=8596581643
+2026-02-09 12:44:22,475 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:44:22,475 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8596581643)
+2026-02-09 12:44:22,756 - aiogram.dispatcher - INFO - Connection established (tryings = 4, bot id = 8596581643)
+2026-02-09 12:44:22,902 - aiogram.event - INFO - Update id=442940039 is handled. Duration 145 ms by bot id=8596581643
+2026-02-09 12:44:23,601 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:44:23,601 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8596581643)
+2026-02-09 12:44:27,716 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:44:27,717 - aiogram.dispatcher - WARNING - Sleep for 1.007912 seconds and try again... (tryings = 1, bot id = 8596581643)
+2026-02-09 12:44:29,043 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:44:29,044 - aiogram.dispatcher - WARNING - Sleep for 1.477585 seconds and try again... (tryings = 1, bot id = 8596581643)
+2026-02-09 12:44:33,670 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:44:33,670 - aiogram.dispatcher - WARNING - Sleep for 1.209607 seconds and try again... (tryings = 2, bot id = 8596581643)
+2026-02-09 12:44:35,078 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:44:35,078 - aiogram.dispatcher - WARNING - Sleep for 1.903321 seconds and try again... (tryings = 2, bot id = 8596581643)
+2026-02-09 12:44:40,199 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:44:40,199 - aiogram.dispatcher - WARNING - Sleep for 1.449424 seconds and try again... (tryings = 3, bot id = 8596581643)
+2026-02-09 12:44:41,828 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:44:41,829 - aiogram.dispatcher - WARNING - Sleep for 2.436323 seconds and try again... (tryings = 3, bot id = 8596581643)
+2026-02-09 12:44:47,377 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:44:47,378 - aiogram.dispatcher - WARNING - Sleep for 1.943465 seconds and try again... (tryings = 4, bot id = 8596581643)
+2026-02-09 12:44:49,443 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:44:49,443 - aiogram.dispatcher - WARNING - Sleep for 3.048337 seconds and try again... (tryings = 4, bot id = 8596581643)
+2026-02-09 12:44:52,606 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:44:52,606 - aiogram.dispatcher - WARNING - Sleep for 2.463870 seconds and try again... (tryings = 5, bot id = 8596581643)
+2026-02-09 12:44:58,215 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:44:58,215 - aiogram.dispatcher - WARNING - Sleep for 3.966896 seconds and try again... (tryings = 5, bot id = 8596581643)
+2026-02-09 12:45:02,307 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:45:02,307 - aiogram.dispatcher - WARNING - Sleep for 3.201207 seconds and try again... (tryings = 6, bot id = 8596581643)
+2026-02-09 12:45:05,631 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:45:05,631 - aiogram.dispatcher - WARNING - Sleep for 5.124012 seconds and try again... (tryings = 6, bot id = 8596581643)
+2026-02-09 12:45:10,874 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:45:10,874 - aiogram.dispatcher - WARNING - Sleep for 3.969548 seconds and try again... (tryings = 7, bot id = 8596581643)
+2026-02-09 12:45:15,005 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:45:15,005 - aiogram.dispatcher - WARNING - Sleep for 5.035678 seconds and try again... (tryings = 7, bot id = 8596581643)
+2026-02-09 12:45:20,165 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:45:20,165 - aiogram.dispatcher - WARNING - Sleep for 4.994411 seconds and try again... (tryings = 8, bot id = 8596581643)
+2026-02-09 12:45:25,347 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:45:25,348 - aiogram.dispatcher - WARNING - Sleep for 4.898246 seconds and try again... (tryings = 8, bot id = 8596581643)
+2026-02-09 12:45:30,365 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:45:30,365 - aiogram.dispatcher - WARNING - Sleep for 5.183450 seconds and try again... (tryings = 9, bot id = 8596581643)
+2026-02-09 12:45:35,193 - aiogram.dispatcher - INFO - Connection established (tryings = 9, bot id = 8596581643)
+2026-02-09 12:45:35,624 - aiogram.event - INFO - Update id=442940040 is handled. Duration 430 ms by bot id=8596581643
+2026-02-09 12:45:35,659 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:45:35,660 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8596581643)
+2026-02-09 12:45:39,781 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:45:39,782 - aiogram.dispatcher - WARNING - Sleep for 5.087505 seconds and try again... (tryings = 10, bot id = 8596581643)
+2026-02-09 12:45:44,988 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:45:44,988 - aiogram.dispatcher - WARNING - Sleep for 1.374606 seconds and try again... (tryings = 1, bot id = 8596581643)
+2026-02-09 12:45:45,317 - aiogram.dispatcher - INFO - Connection established (tryings = 11, bot id = 8596581643)
+2026-02-09 12:45:45,693 - aiogram.event - INFO - Update id=442940041 is handled. Duration 375 ms by bot id=8596581643
+2026-02-09 12:45:48,176 - aiogram.dispatcher - INFO - Connection established (tryings = 2, bot id = 8596581643)
+2026-02-09 12:45:48,605 - aiogram.event - INFO - Update id=442940042 is handled. Duration 428 ms by bot id=8596581643
+2026-02-09 12:45:49,628 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:45:49,629 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8596581643)
+2026-02-09 12:45:50,254 - aiogram.event - INFO - Update id=442940043 is handled. Duration 144 ms by bot id=8596581643
+2026-02-09 12:45:50,859 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:45:50,859 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8596581643)
+2026-02-09 12:45:52,700 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 8596581643)
+2026-02-09 12:45:52,905 - aiogram.event - INFO - Update id=442940044 is handled. Duration 203 ms by bot id=8596581643
+2026-02-09 12:45:54,431 - aiogram.event - INFO - Update id=442940045 is handled. Duration 205 ms by bot id=8596581643
+2026-02-09 12:45:54,990 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:45:54,990 - aiogram.dispatcher - WARNING - Sleep for 1.271244 seconds and try again... (tryings = 1, bot id = 8596581643)
+2026-02-09 12:45:56,478 - aiogram.dispatcher - INFO - Connection established (tryings = 2, bot id = 8596581643)
+2026-02-09 12:45:56,834 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:45:56,834 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8596581643)
+2026-02-09 12:45:56,835 - aiogram.event - INFO - Update id=442940046 is handled. Duration 356 ms by bot id=8596581643
+2026-02-09 12:45:56,836 - aiogram.event - INFO - Update id=442940046 is handled. Duration 357 ms by bot id=8596581643
+2026-02-09 12:46:00,959 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:46:00,960 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8596581643)
+2026-02-09 12:46:02,076 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:46:02,077 - aiogram.dispatcher - WARNING - Sleep for 1.301885 seconds and try again... (tryings = 1, bot id = 8596581643)
+2026-02-09 12:46:06,514 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:46:06,515 - aiogram.dispatcher - WARNING - Sleep for 1.326796 seconds and try again... (tryings = 1, bot id = 8596581643)
+2026-02-09 12:46:06,768 - aiogram.dispatcher - INFO - Connection established (tryings = 2, bot id = 8596581643)
+2026-02-09 12:46:06,922 - aiogram.event - INFO - Update id=442940047 is handled. Duration 152 ms by bot id=8596581643
+2026-02-09 12:46:07,953 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:46:07,953 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8596581643)
+2026-02-09 12:46:12,067 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:46:12,068 - aiogram.dispatcher - WARNING - Sleep for 1.701317 seconds and try again... (tryings = 2, bot id = 8596581643)
+2026-02-09 12:46:13,907 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:46:13,907 - aiogram.dispatcher - WARNING - Sleep for 1.346038 seconds and try again... (tryings = 1, bot id = 8596581643)
+2026-02-09 12:46:18,370 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:46:18,370 - aiogram.dispatcher - WARNING - Sleep for 2.025048 seconds and try again... (tryings = 3, bot id = 8596581643)
+2026-02-09 12:46:20,509 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:46:20,509 - aiogram.dispatcher - WARNING - Sleep for 1.798927 seconds and try again... (tryings = 2, bot id = 8596581643)
+2026-02-09 12:46:25,423 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:46:25,423 - aiogram.dispatcher - WARNING - Sleep for 2.503046 seconds and try again... (tryings = 4, bot id = 8596581643)
+2026-02-09 12:46:28,049 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:46:28,049 - aiogram.dispatcher - WARNING - Sleep for 2.161549 seconds and try again... (tryings = 3, bot id = 8596581643)
+2026-02-09 12:46:33,341 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:46:33,342 - aiogram.dispatcher - WARNING - Sleep for 3.335428 seconds and try again... (tryings = 5, bot id = 8596581643)
+2026-02-09 12:46:36,800 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:46:36,800 - aiogram.dispatcher - WARNING - Sleep for 2.837446 seconds and try again... (tryings = 4, bot id = 8596581643)
+2026-02-09 12:46:39,250 - aiogram.dispatcher - INFO - Connection established (tryings = 6, bot id = 8596581643)
+2026-02-09 12:46:39,399 - aiogram.event - INFO - Update id=442940048 is handled. Duration 147 ms by bot id=8596581643
+2026-02-09 12:46:42,763 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:46:42,763 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8596581643)
+2026-02-09 12:46:43,877 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:46:43,878 - aiogram.dispatcher - WARNING - Sleep for 3.642671 seconds and try again... (tryings = 5, bot id = 8596581643)
+2026-02-09 12:46:47,640 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:46:47,640 - aiogram.dispatcher - WARNING - Sleep for 1.392611 seconds and try again... (tryings = 1, bot id = 8596581643)
+2026-02-09 12:46:52,149 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:46:52,151 - aiogram.dispatcher - WARNING - Sleep for 4.712055 seconds and try again... (tryings = 6, bot id = 8596581643)
+2026-02-09 12:46:55,527 - aiogram.dispatcher - INFO - Connection established (tryings = 2, bot id = 8596581643)
+2026-02-09 12:46:55,681 - aiogram.event - INFO - Update id=442940049 is handled. Duration 153 ms by bot id=8596581643
+2026-02-09 12:46:57,020 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:46:57,020 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8596581643)
+2026-02-09 12:47:01,133 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:47:01,133 - aiogram.dispatcher - WARNING - Sleep for 4.918883 seconds and try again... (tryings = 7, bot id = 8596581643)
+2026-02-09 12:47:06,172 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:47:06,172 - aiogram.dispatcher - WARNING - Sleep for 1.345524 seconds and try again... (tryings = 1, bot id = 8596581643)
+2026-02-09 12:47:10,628 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:47:10,628 - aiogram.dispatcher - WARNING - Sleep for 4.768119 seconds and try again... (tryings = 8, bot id = 8596581643)
+2026-02-09 12:47:15,519 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:47:15,520 - aiogram.dispatcher - WARNING - Sleep for 1.806947 seconds and try again... (tryings = 2, bot id = 8596581643)
+2026-02-09 12:47:20,464 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:47:20,465 - aiogram.dispatcher - WARNING - Sleep for 4.927303 seconds and try again... (tryings = 9, bot id = 8596581643)
+2026-02-09 12:47:25,509 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:47:25,510 - aiogram.dispatcher - WARNING - Sleep for 2.424273 seconds and try again... (tryings = 3, bot id = 8596581643)
+2026-02-09 12:47:29,093 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:47:29,093 - aiogram.dispatcher - WARNING - Sleep for 5.120829 seconds and try again... (tryings = 10, bot id = 8596581643)
+2026-02-09 12:47:34,332 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:47:34,332 - aiogram.dispatcher - WARNING - Sleep for 3.046731 seconds and try again... (tryings = 4, bot id = 8596581643)
+2026-02-09 12:47:37,497 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:47:37,497 - aiogram.dispatcher - WARNING - Sleep for 5.040270 seconds and try again... (tryings = 11, bot id = 8596581643)
+2026-02-09 12:47:42,666 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:47:42,666 - aiogram.dispatcher - WARNING - Sleep for 3.891446 seconds and try again... (tryings = 5, bot id = 8596581643)
+2026-02-09 12:47:46,673 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:47:46,673 - aiogram.dispatcher - WARNING - Sleep for 5.001133 seconds and try again... (tryings = 12, bot id = 8596581643)
+2026-02-09 12:47:51,798 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:47:51,798 - aiogram.dispatcher - WARNING - Sleep for 4.810414 seconds and try again... (tryings = 6, bot id = 8596581643)
+2026-02-09 12:47:56,726 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:47:56,727 - aiogram.dispatcher - WARNING - Sleep for 5.022145 seconds and try again... (tryings = 13, bot id = 8596581643)
+2026-02-09 12:48:01,900 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:48:01,900 - aiogram.dispatcher - WARNING - Sleep for 4.917031 seconds and try again... (tryings = 7, bot id = 8596581643)
+2026-02-09 12:48:06,935 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:48:06,936 - aiogram.dispatcher - WARNING - Sleep for 5.039948 seconds and try again... (tryings = 14, bot id = 8596581643)
+2026-02-09 12:48:12,091 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:48:12,092 - aiogram.dispatcher - WARNING - Sleep for 4.996952 seconds and try again... (tryings = 8, bot id = 8596581643)
+2026-02-09 12:48:17,203 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:48:17,203 - aiogram.dispatcher - WARNING - Sleep for 5.181595 seconds and try again... (tryings = 15, bot id = 8596581643)
+2026-02-09 12:48:22,506 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:48:22,507 - aiogram.dispatcher - WARNING - Sleep for 5.232333 seconds and try again... (tryings = 9, bot id = 8596581643)
+2026-02-09 12:48:27,926 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:48:27,927 - aiogram.dispatcher - WARNING - Sleep for 5.069126 seconds and try again... (tryings = 16, bot id = 8596581643)
+2026-02-09 12:48:33,109 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:48:33,110 - aiogram.dispatcher - WARNING - Sleep for 5.121385 seconds and try again... (tryings = 10, bot id = 8596581643)
+2026-02-09 12:48:38,392 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:48:38,392 - aiogram.dispatcher - WARNING - Sleep for 4.982646 seconds and try again... (tryings = 17, bot id = 8596581643)
+2026-02-09 12:48:43,491 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:48:43,491 - aiogram.dispatcher - WARNING - Sleep for 5.080602 seconds and try again... (tryings = 11, bot id = 8596581643)
+2026-02-09 12:48:48,734 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:48:48,734 - aiogram.dispatcher - WARNING - Sleep for 5.188644 seconds and try again... (tryings = 18, bot id = 8596581643)
+2026-02-09 12:48:49,635 - aiogram.dispatcher - INFO - Connection established (tryings = 12, bot id = 8596581643)
+2026-02-09 12:48:50,046 - aiogram.event - INFO - Update id=442940050 is handled. Duration 409 ms by bot id=8596581643
+2026-02-09 12:48:54,056 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:48:54,056 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8596581643)
+2026-02-09 12:48:58,187 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:48:58,187 - aiogram.dispatcher - WARNING - Sleep for 5.142455 seconds and try again... (tryings = 19, bot id = 8596581643)
+2026-02-09 12:49:01,628 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 8596581643)
+2026-02-09 12:49:01,806 - aiogram.event - INFO - Update id=442940051 is handled. Duration 176 ms by bot id=8596581643
+2026-02-09 12:49:03,448 - aiogram.dispatcher - INFO - Connection established (tryings = 20, bot id = 8596581643)
+2026-02-09 12:49:03,489 - aiogram.event - INFO - Update id=442940052 is handled. Duration 145 ms by bot id=8596581643
+2026-02-09 12:49:03,562 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:49:03,562 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8596581643)
+2026-02-09 12:49:03,870 - aiogram.event - INFO - Update id=442940052 is handled. Duration 419 ms by bot id=8596581643
+2026-02-09 12:49:06,116 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 8596581643)
+2026-02-09 12:49:06,330 - aiogram.event - INFO - Update id=442940053 is handled. Duration 212 ms by bot id=8596581643
+2026-02-09 12:49:07,680 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:49:07,680 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8596581643)
+2026-02-09 12:49:08,283 - aiogram.event - INFO - Update id=442940054 is handled. Duration 219 ms by bot id=8596581643
+2026-02-09 12:49:08,844 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 8596581643)
+2026-02-09 12:49:08,893 - aiogram.event - INFO - Update id=442940055 is handled. Duration 197 ms by bot id=8596581643
+2026-02-09 12:49:08,982 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:49:08,982 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8596581643)
+2026-02-09 12:49:09,018 - aiogram.event - INFO - Update id=442940055 is handled. Duration 171 ms by bot id=8596581643
+2026-02-09 12:49:13,101 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:49:13,101 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8596581643)
+2026-02-09 12:49:14,219 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:49:14,219 - aiogram.dispatcher - WARNING - Sleep for 1.240070 seconds and try again... (tryings = 1, bot id = 8596581643)
+2026-02-09 12:49:18,618 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:49:18,619 - aiogram.dispatcher - WARNING - Sleep for 1.354064 seconds and try again... (tryings = 1, bot id = 8596581643)
+2026-02-09 12:49:20,086 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:49:20,086 - aiogram.dispatcher - WARNING - Sleep for 1.514635 seconds and try again... (tryings = 2, bot id = 8596581643)
+2026-02-09 12:49:24,717 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:49:24,717 - aiogram.dispatcher - WARNING - Sleep for 1.823297 seconds and try again... (tryings = 2, bot id = 8596581643)
+2026-02-09 12:49:26,657 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:49:26,658 - aiogram.dispatcher - WARNING - Sleep for 2.120346 seconds and try again... (tryings = 3, bot id = 8596581643)
+2026-02-09 12:49:31,927 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:49:31,927 - aiogram.dispatcher - WARNING - Sleep for 2.371164 seconds and try again... (tryings = 3, bot id = 8596581643)
+2026-02-09 12:49:34,415 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:49:34,415 - aiogram.dispatcher - WARNING - Sleep for 2.830309 seconds and try again... (tryings = 4, bot id = 8596581643)
+2026-02-09 12:49:40,426 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:49:40,426 - aiogram.dispatcher - WARNING - Sleep for 3.278742 seconds and try again... (tryings = 4, bot id = 8596581643)
+2026-02-09 12:49:43,830 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:49:43,831 - aiogram.dispatcher - WARNING - Sleep for 3.709565 seconds and try again... (tryings = 5, bot id = 8596581643)
+2026-02-09 12:49:47,696 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:49:47,696 - aiogram.dispatcher - WARNING - Sleep for 4.127489 seconds and try again... (tryings = 5, bot id = 8596581643)
+2026-02-09 12:49:51,939 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:49:51,939 - aiogram.dispatcher - WARNING - Sleep for 4.871826 seconds and try again... (tryings = 6, bot id = 8596581643)
+2026-02-09 12:49:56,931 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:49:56,932 - aiogram.dispatcher - WARNING - Sleep for 4.864781 seconds and try again... (tryings = 6, bot id = 8596581643)
+2026-02-09 12:50:01,914 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:50:01,914 - aiogram.dispatcher - WARNING - Sleep for 4.999986 seconds and try again... (tryings = 7, bot id = 8596581643)
+2026-02-09 12:50:07,030 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:50:07,031 - aiogram.dispatcher - WARNING - Sleep for 5.015591 seconds and try again... (tryings = 7, bot id = 8596581643)
+2026-02-09 12:50:12,162 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:50:12,162 - aiogram.dispatcher - WARNING - Sleep for 4.918686 seconds and try again... (tryings = 8, bot id = 8596581643)
+2026-02-09 12:50:17,198 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:50:17,198 - aiogram.dispatcher - WARNING - Sleep for 4.864288 seconds and try again... (tryings = 8, bot id = 8596581643)
+2026-02-09 12:50:22,190 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:50:22,190 - aiogram.dispatcher - WARNING - Sleep for 5.029249 seconds and try again... (tryings = 9, bot id = 8596581643)
+2026-02-09 12:50:27,333 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:50:27,334 - aiogram.dispatcher - WARNING - Sleep for 4.891842 seconds and try again... (tryings = 9, bot id = 8596581643)
+2026-02-09 12:50:32,448 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:50:32,448 - aiogram.dispatcher - WARNING - Sleep for 4.976657 seconds and try again... (tryings = 10, bot id = 8596581643)
+2026-02-09 12:50:36,659 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2026-02-09 12:50:36,660 - aiogram.dispatcher - INFO - Polling stopped for bot @hiisaabot id=8596581643 - 'Hisaab'
+2026-02-09 12:50:36,660 - aiogram.dispatcher - INFO - Polling stopped
+2026-02-09 12:50:42,346 - aiogram.dispatcher - INFO - Connection established (tryings = 10, bot id = 8596581643)
+2026-02-09 12:52:15,279 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2026-02-09 12:52:15,280 - aiogram.dispatcher - INFO - Polling stopped for bot @hiisaabot id=8596581643 - 'Hisaab'
+2026-02-09 12:52:15,280 - aiogram.dispatcher - INFO - Polling stopped
+2026-02-09 12:52:32,378 - __main__ - INFO - Starting MicroBiz Bot...
+2026-02-09 12:52:32,997 - aiogram.dispatcher - INFO - Start polling
+2026-02-09 12:52:33,109 - aiogram.dispatcher - INFO - Run polling for bot @hiisaabot id=8596581643 - 'Hisaab'
+2026-02-09 12:52:50,941 - aiogram.event - INFO - Update id=442940056 is handled. Duration 559 ms by bot id=8596581643
+2026-02-09 12:52:52,111 - aiogram.event - INFO - Update id=442940057 is handled. Duration 152 ms by bot id=8596581643
+2026-02-09 12:52:53,962 - aiogram.event - INFO - Update id=442940058 is handled. Duration 159 ms by bot id=8596581643
+2026-02-09 12:52:55,088 - aiogram.event - INFO - Update id=442940059 is handled. Duration 203 ms by bot id=8596581643
+2026-02-09 12:52:56,914 - aiogram.event - INFO - Update id=442940060 is handled. Duration 160 ms by bot id=8596581643
+2026-02-09 12:52:58,927 - aiogram.event - INFO - Update id=442940061 is handled. Duration 149 ms by bot id=8596581643
+2026-02-09 12:53:02,363 - aiogram.event - INFO - Update id=442940062 is handled. Duration 150 ms by bot id=8596581643
+2026-02-09 12:56:09,862 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2026-02-09 12:56:09,863 - aiogram.dispatcher - INFO - Polling stopped for bot @hiisaabot id=8596581643 - 'Hisaab'
+2026-02-09 12:56:09,863 - aiogram.dispatcher - INFO - Polling stopped
+2026-02-09 12:56:22,496 - __main__ - INFO - Starting MicroBiz Bot...
+2026-02-09 12:56:23,056 - aiogram.dispatcher - INFO - Start polling
+2026-02-09 12:56:23,174 - aiogram.dispatcher - INFO - Run polling for bot @hiisaabot id=8596581643 - 'Hisaab'
+2026-02-09 12:56:51,903 - __main__ - INFO - Starting MicroBiz Bot...
+2026-02-09 12:56:52,361 - aiogram.dispatcher - INFO - Start polling
+2026-02-09 12:56:52,585 - aiogram.dispatcher - INFO - Run polling for bot @hiisaabot id=8596581643 - 'Hisaab'
+2026-02-09 12:56:52,761 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:56:52,761 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8596581643)
+2026-02-09 12:56:56,991 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:56:56,992 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8596581643)
+2026-02-09 12:56:58,114 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:56:58,114 - aiogram.dispatcher - WARNING - Sleep for 1.258629 seconds and try again... (tryings = 1, bot id = 8596581643)
+2026-02-09 12:57:02,487 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:57:02,488 - aiogram.dispatcher - WARNING - Sleep for 1.492959 seconds and try again... (tryings = 1, bot id = 8596581643)
+2026-02-09 12:57:02,922 - aiogram.dispatcher - INFO - Connection established (tryings = 2, bot id = 8596581643)
+2026-02-09 12:57:03,349 - aiogram.event - INFO - Update id=442940063 is handled. Duration 425 ms by bot id=8596581643
+2026-02-09 12:57:04,094 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:57:04,094 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8596581643)
+2026-02-09 12:57:07,924 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 8596581643)
+2026-02-09 12:57:07,928 - aiogram.event - INFO - Update id=442940064 is handled. Duration 2 ms by bot id=8596581643
+2026-02-09 12:57:08,220 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:57:08,220 - aiogram.dispatcher - WARNING - Sleep for 1.904366 seconds and try again... (tryings = 2, bot id = 8596581643)
+2026-02-09 12:57:10,268 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:57:10,268 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8596581643)
+2026-02-09 12:57:11,847 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 8596581643)
+2026-02-09 12:57:11,853 - aiogram.event - INFO - Update id=442940065 is handled. Duration 2 ms by bot id=8596581643
+2026-02-09 12:57:14,467 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:57:14,467 - aiogram.dispatcher - WARNING - Sleep for 2.346695 seconds and try again... (tryings = 3, bot id = 8596581643)
+2026-02-09 12:57:14,780 - aiogram.event - INFO - Update id=442940066 is handled. Duration 3 ms by bot id=8596581643
+2026-02-09 12:57:17,234 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:57:17,234 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8596581643)
+2026-02-09 12:57:17,443 - aiogram.dispatcher - INFO - Connection established (tryings = 4, bot id = 8596581643)
+2026-02-09 12:57:17,945 - aiogram.event - INFO - Update id=442940067 is handled. Duration 500 ms by bot id=8596581643
+2026-02-09 12:57:21,351 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:57:21,352 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8596581643)
+2026-02-09 12:57:22,569 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:57:22,569 - aiogram.dispatcher - WARNING - Sleep for 1.054691 seconds and try again... (tryings = 1, bot id = 8596581643)
+2026-02-09 12:57:25,972 - aiogram.dispatcher - INFO - Connection established (tryings = 2, bot id = 8596581643)
+2026-02-09 12:57:25,975 - aiogram.event - INFO - Update id=442940068 is handled. Duration 1 ms by bot id=8596581643
+2026-02-09 12:57:28,039 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:57:28,039 - aiogram.dispatcher - WARNING - Sleep for 1.141827 seconds and try again... (tryings = 1, bot id = 8596581643)
+2026-02-09 12:57:29,437 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:57:29,437 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8596581643)
+2026-02-09 12:57:33,811 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:57:33,811 - aiogram.dispatcher - WARNING - Sleep for 1.494315 seconds and try again... (tryings = 2, bot id = 8596581643)
+2026-02-09 12:57:35,467 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:57:35,467 - aiogram.dispatcher - WARNING - Sleep for 1.267793 seconds and try again... (tryings = 1, bot id = 8596581643)
+2026-02-09 12:57:39,876 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:57:39,877 - aiogram.dispatcher - WARNING - Sleep for 2.094195 seconds and try again... (tryings = 3, bot id = 8596581643)
+2026-02-09 12:57:43,224 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:57:43,224 - aiogram.dispatcher - WARNING - Sleep for 1.533965 seconds and try again... (tryings = 2, bot id = 8596581643)
+2026-02-09 12:57:48,056 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:57:48,057 - aiogram.dispatcher - WARNING - Sleep for 2.755274 seconds and try again... (tryings = 4, bot id = 8596581643)
+2026-02-09 12:57:48,059 - aiogram.dispatcher - INFO - Connection established (tryings = 3, bot id = 8596581643)
+2026-02-09 12:57:48,064 - aiogram.event - INFO - Update id=442940069 is handled. Duration 3 ms by bot id=8596581643
+2026-02-09 12:57:51,048 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:57:51,048 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8596581643)
+2026-02-09 12:57:55,222 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:57:55,222 - aiogram.dispatcher - WARNING - Sleep for 3.660625 seconds and try again... (tryings = 5, bot id = 8596581643)
+2026-02-09 12:57:59,026 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:57:59,026 - aiogram.dispatcher - WARNING - Sleep for 1.225580 seconds and try again... (tryings = 1, bot id = 8596581643)
+2026-02-09 12:58:03,432 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:58:03,432 - aiogram.dispatcher - WARNING - Sleep for 4.709648 seconds and try again... (tryings = 6, bot id = 8596581643)
+2026-02-09 12:58:08,257 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:58:08,257 - aiogram.dispatcher - WARNING - Sleep for 1.592739 seconds and try again... (tryings = 2, bot id = 8596581643)
+2026-02-09 12:58:13,094 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:58:13,094 - aiogram.dispatcher - WARNING - Sleep for 5.024788 seconds and try again... (tryings = 7, bot id = 8596581643)
+2026-02-09 12:58:18,241 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:58:18,241 - aiogram.dispatcher - WARNING - Sleep for 2.112728 seconds and try again... (tryings = 3, bot id = 8596581643)
+2026-02-09 12:58:18,898 - aiogram.dispatcher - INFO - Connection established (tryings = 8, bot id = 8596581643)
+2026-02-09 12:58:19,062 - aiogram.event - INFO - Update id=442940070 is handled. Duration 161 ms by bot id=8596581643
+2026-02-09 12:58:20,836 - aiogram.dispatcher - INFO - Connection established (tryings = 4, bot id = 8596581643)
+2026-02-09 12:58:20,839 - aiogram.event - INFO - Update id=442940071 is handled. Duration 2 ms by bot id=8596581643
+2026-02-09 12:58:21,275 - aiogram.event - INFO - Update id=442940071 is handled. Duration 1 ms by bot id=8596581643
+2026-02-09 12:58:21,448 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:58:21,448 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8596581643)
+2026-02-09 12:58:23,847 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 8596581643)
+2026-02-09 12:58:23,851 - aiogram.event - INFO - Update id=442940072 is handled. Duration 2 ms by bot id=8596581643
+2026-02-09 12:58:25,536 - aiogram.event - INFO - Update id=442940073 is handled. Duration 2 ms by bot id=8596581643
+2026-02-09 12:58:25,795 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:58:25,795 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8596581643)
+2026-02-09 12:58:27,020 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:58:27,020 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8596581643)
+2026-02-09 12:58:27,923 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 8596581643)
+2026-02-09 12:58:27,925 - aiogram.event - INFO - Update id=442940074 is handled. Duration 1 ms by bot id=8596581643
+2026-02-09 12:58:28,203 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 8596581643)
+2026-02-09 12:58:28,430 - aiogram.event - INFO - Update id=442940075 is handled. Duration 304 ms by bot id=8596581643
+2026-02-09 12:58:28,818 - aiogram.event - INFO - Update id=442940075 is handled. Duration 612 ms by bot id=8596581643
+2026-02-09 12:58:29,828 - aiogram.event - INFO - Update id=442940076 is handled. Duration 242 ms by bot id=8596581643
+2026-02-09 12:58:31,439 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:58:31,439 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8596581643)
+2026-02-09 12:58:31,718 - aiogram.event - INFO - Update id=442940077 is handled. Duration 3 ms by bot id=8596581643
+2026-02-09 12:58:32,656 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:58:32,656 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8596581643)
+2026-02-09 12:58:36,809 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:58:36,809 - aiogram.dispatcher - WARNING - Sleep for 1.386122 seconds and try again... (tryings = 1, bot id = 8596581643)
+2026-02-09 12:58:38,616 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:58:38,616 - aiogram.dispatcher - WARNING - Sleep for 1.361480 seconds and try again... (tryings = 1, bot id = 8596581643)
+2026-02-09 12:58:40,791 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2026-02-09 12:58:40,792 - aiogram.dispatcher - INFO - Polling stopped for bot @hiisaabot id=8596581643 - 'Hisaab'
+2026-02-09 12:58:40,792 - aiogram.dispatcher - INFO - Polling stopped
+2026-02-09 12:58:48,597 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2026-02-09 12:58:48,597 - aiogram.dispatcher - INFO - Polling stopped for bot @hiisaabot id=8596581643 - 'Hisaab'
+2026-02-09 12:58:48,598 - aiogram.dispatcher - INFO - Polling stopped
+2026-02-09 12:58:53,739 - __main__ - INFO - Starting MicroBiz Bot...
+2026-02-09 12:58:56,056 - aiogram.dispatcher - INFO - Start polling
+2026-02-09 12:58:56,369 - aiogram.dispatcher - INFO - Run polling for bot @hiisaabot id=8596581643 - 'Hisaab'
+2026-02-09 12:58:58,632 - aiogram.event - INFO - Update id=442940078 is handled. Duration 823 ms by bot id=8596581643
+2026-02-09 12:59:09,176 - aiogram.event - INFO - Update id=442940079 is handled. Duration 238 ms by bot id=8596581643
+2026-02-09 12:59:12,260 - aiogram.event - INFO - Update id=442940080 is handled. Duration 2 ms by bot id=8596581643
+2026-02-09 12:59:26,158 - aiogram.event - INFO - Update id=442940081 is handled. Duration 2 ms by bot id=8596581643
+2026-02-09 12:59:33,382 - aiogram.event - INFO - Update id=442940082 is handled. Duration 2 ms by bot id=8596581643
+2026-02-09 12:59:38,392 - aiogram.event - INFO - Update id=442940083 is handled. Duration 148 ms by bot id=8596581643
+2026-02-09 12:59:42,030 - aiogram.event - INFO - Update id=442940084 is handled. Duration 2 ms by bot id=8596581643
+2026-02-09 12:59:46,439 - aiogram.event - INFO - Update id=442940085 is handled. Duration 160 ms by bot id=8596581643
+2026-02-09 12:59:48,011 - aiogram.event - INFO - Update id=442940086 is handled. Duration 2 ms by bot id=8596581643
+2026-02-09 12:59:49,384 - aiogram.event - INFO - Update id=442940087 is handled. Duration 2 ms by bot id=8596581643
+2026-02-09 12:59:52,885 - aiogram.event - INFO - Update id=442940088 is handled. Duration 2 ms by bot id=8596581643
+2026-02-09 13:00:19,408 - aiogram.event - INFO - Update id=442940089 is handled. Duration 2 ms by bot id=8596581643
+2026-02-09 13:00:20,890 - aiogram.event - INFO - Update id=442940090 is handled. Duration 1 ms by bot id=8596581643
+2026-02-09 13:06:09,924 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2026-02-09 13:06:09,925 - aiogram.dispatcher - INFO - Polling stopped for bot @hiisaabot id=8596581643 - 'Hisaab'
+2026-02-09 13:06:09,925 - aiogram.dispatcher - INFO - Polling stopped
+2026-02-09 13:06:28,047 - __main__ - INFO - Starting MicroBiz Bot...
+2026-02-09 13:06:28,520 - aiogram.dispatcher - INFO - Start polling
+2026-02-09 13:06:28,632 - aiogram.dispatcher - INFO - Run polling for bot @hiisaabot id=8596581643 - 'Hisaab'
+2026-02-09 13:06:36,810 - aiogram.event - INFO - Update id=442940091 is not handled. Duration 1 ms by bot id=8596581643
+2026-02-09 13:06:36,810 - aiogram.event - ERROR - Cause exception while process update id=442940091 by bot id=8596581643
+AttributeError: '_GeneratorContextManager' object has no attribute 'close'
+Traceback (most recent call last):
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/app/middlewares/auth.py", line 22, in __call__
+    user = get_user(db, event.from_user.id)
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/app/database/crud.py", line 9, in get_user
+    return db.query(User).filter(User.telegram_id == telegram_id).first()
+           ^^^^^^^^
+AttributeError: '_GeneratorContextManager' object has no attribute 'query'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/dispatcher.py", line 320, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/dispatcher.py", line 164, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/middlewares/error.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 58, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/fsm/middleware.py", line 43, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/event/telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/event/handler.py", line 71, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/router.py", line 161, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/router.py", line 153, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/router.py", line 189, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/router.py", line 161, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/router.py", line 153, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/router.py", line 181, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/event/telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/app/middlewares/auth.py", line 39, in __call__
+    db.close()
+    ^^^^^^^^
+AttributeError: '_GeneratorContextManager' object has no attribute 'close'
+2026-02-09 13:06:43,298 - aiogram.event - INFO - Update id=442940092 is not handled. Duration 2 ms by bot id=8596581643
+2026-02-09 13:06:43,299 - aiogram.event - ERROR - Cause exception while process update id=442940092 by bot id=8596581643
+AttributeError: '_GeneratorContextManager' object has no attribute 'close'
+Traceback (most recent call last):
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/app/middlewares/auth.py", line 22, in __call__
+    user = get_user(db, event.from_user.id)
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/app/database/crud.py", line 9, in get_user
+    return db.query(User).filter(User.telegram_id == telegram_id).first()
+           ^^^^^^^^
+AttributeError: '_GeneratorContextManager' object has no attribute 'query'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/dispatcher.py", line 320, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/dispatcher.py", line 164, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/middlewares/error.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 58, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/fsm/middleware.py", line 43, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/event/telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/event/handler.py", line 71, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/router.py", line 161, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/router.py", line 153, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/router.py", line 189, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/router.py", line 161, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/router.py", line 153, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/router.py", line 181, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/event/telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/app/middlewares/auth.py", line 39, in __call__
+    db.close()
+    ^^^^^^^^
+AttributeError: '_GeneratorContextManager' object has no attribute 'close'
+2026-02-09 13:06:46,691 - aiogram.event - INFO - Update id=442940093 is not handled. Duration 1 ms by bot id=8596581643
+2026-02-09 13:06:46,691 - aiogram.event - ERROR - Cause exception while process update id=442940093 by bot id=8596581643
+AttributeError: '_GeneratorContextManager' object has no attribute 'close'
+Traceback (most recent call last):
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/app/middlewares/auth.py", line 22, in __call__
+    user = get_user(db, event.from_user.id)
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/app/database/crud.py", line 9, in get_user
+    return db.query(User).filter(User.telegram_id == telegram_id).first()
+           ^^^^^^^^
+AttributeError: '_GeneratorContextManager' object has no attribute 'query'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/dispatcher.py", line 320, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/dispatcher.py", line 164, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/middlewares/error.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 58, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/fsm/middleware.py", line 43, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/event/telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/event/handler.py", line 71, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/router.py", line 161, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/router.py", line 153, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/router.py", line 189, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/router.py", line 161, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/router.py", line 153, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/router.py", line 181, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/event/telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/app/middlewares/auth.py", line 39, in __call__
+    db.close()
+    ^^^^^^^^
+AttributeError: '_GeneratorContextManager' object has no attribute 'close'
+2026-02-09 13:07:03,781 - aiogram.event - INFO - Update id=442940094 is not handled. Duration 1 ms by bot id=8596581643
+2026-02-09 13:07:03,781 - aiogram.event - ERROR - Cause exception while process update id=442940094 by bot id=8596581643
+AttributeError: '_GeneratorContextManager' object has no attribute 'close'
+Traceback (most recent call last):
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/app/middlewares/auth.py", line 22, in __call__
+    user = get_user(db, event.from_user.id)
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/app/database/crud.py", line 9, in get_user
+    return db.query(User).filter(User.telegram_id == telegram_id).first()
+           ^^^^^^^^
+AttributeError: '_GeneratorContextManager' object has no attribute 'query'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/dispatcher.py", line 320, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/dispatcher.py", line 164, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/middlewares/error.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 58, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/fsm/middleware.py", line 43, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/event/telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/event/handler.py", line 71, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/router.py", line 161, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/router.py", line 153, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/router.py", line 189, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/router.py", line 161, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/router.py", line 153, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/router.py", line 181, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/event/telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/app/middlewares/auth.py", line 39, in __call__
+    db.close()
+    ^^^^^^^^
+AttributeError: '_GeneratorContextManager' object has no attribute 'close'
+2026-02-09 13:07:06,136 - aiogram.event - INFO - Update id=442940095 is not handled. Duration 2 ms by bot id=8596581643
+2026-02-09 13:07:06,136 - aiogram.event - ERROR - Cause exception while process update id=442940095 by bot id=8596581643
+AttributeError: '_GeneratorContextManager' object has no attribute 'close'
+Traceback (most recent call last):
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/app/middlewares/auth.py", line 22, in __call__
+    user = get_user(db, event.from_user.id)
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/app/database/crud.py", line 9, in get_user
+    return db.query(User).filter(User.telegram_id == telegram_id).first()
+           ^^^^^^^^
+AttributeError: '_GeneratorContextManager' object has no attribute 'query'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/dispatcher.py", line 320, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/dispatcher.py", line 164, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/middlewares/error.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 58, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/fsm/middleware.py", line 43, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/event/telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/event/handler.py", line 71, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/router.py", line 161, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/router.py", line 153, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/router.py", line 189, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/router.py", line 161, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/router.py", line 153, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/router.py", line 181, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/event/telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/app/middlewares/auth.py", line 39, in __call__
+    db.close()
+    ^^^^^^^^
+AttributeError: '_GeneratorContextManager' object has no attribute 'close'
+2026-02-09 13:07:06,805 - aiogram.event - INFO - Update id=442940096 is not handled. Duration 1 ms by bot id=8596581643
+2026-02-09 13:07:06,805 - aiogram.event - ERROR - Cause exception while process update id=442940096 by bot id=8596581643
+AttributeError: '_GeneratorContextManager' object has no attribute 'close'
+Traceback (most recent call last):
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/app/middlewares/auth.py", line 22, in __call__
+    user = get_user(db, event.from_user.id)
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/app/database/crud.py", line 9, in get_user
+    return db.query(User).filter(User.telegram_id == telegram_id).first()
+           ^^^^^^^^
+AttributeError: '_GeneratorContextManager' object has no attribute 'query'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/dispatcher.py", line 320, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/dispatcher.py", line 164, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/middlewares/error.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 58, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/fsm/middleware.py", line 43, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/event/telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/event/handler.py", line 71, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/router.py", line 161, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/router.py", line 153, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/router.py", line 189, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/router.py", line 161, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/router.py", line 153, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/router.py", line 181, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/event/telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/app/middlewares/auth.py", line 39, in __call__
+    db.close()
+    ^^^^^^^^
+AttributeError: '_GeneratorContextManager' object has no attribute 'close'
+2026-02-09 13:07:07,475 - aiogram.event - INFO - Update id=442940097 is not handled. Duration 4 ms by bot id=8596581643
+2026-02-09 13:07:07,476 - aiogram.event - ERROR - Cause exception while process update id=442940097 by bot id=8596581643
+AttributeError: '_GeneratorContextManager' object has no attribute 'close'
+Traceback (most recent call last):
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/app/middlewares/auth.py", line 22, in __call__
+    user = get_user(db, event.from_user.id)
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/app/database/crud.py", line 9, in get_user
+    return db.query(User).filter(User.telegram_id == telegram_id).first()
+           ^^^^^^^^
+AttributeError: '_GeneratorContextManager' object has no attribute 'query'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/dispatcher.py", line 320, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/dispatcher.py", line 164, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/middlewares/error.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 58, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/fsm/middleware.py", line 43, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/event/telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/event/handler.py", line 71, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/router.py", line 161, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/router.py", line 153, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/router.py", line 189, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/router.py", line 161, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/router.py", line 153, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/router.py", line 181, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/event/telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/app/middlewares/auth.py", line 39, in __call__
+    db.close()
+    ^^^^^^^^
+AttributeError: '_GeneratorContextManager' object has no attribute 'close'
+2026-02-09 13:07:07,996 - aiogram.event - INFO - Update id=442940098 is not handled. Duration 2 ms by bot id=8596581643
+2026-02-09 13:07:07,996 - aiogram.event - ERROR - Cause exception while process update id=442940098 by bot id=8596581643
+AttributeError: '_GeneratorContextManager' object has no attribute 'close'
+Traceback (most recent call last):
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/app/middlewares/auth.py", line 22, in __call__
+    user = get_user(db, event.from_user.id)
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/app/database/crud.py", line 9, in get_user
+    return db.query(User).filter(User.telegram_id == telegram_id).first()
+           ^^^^^^^^
+AttributeError: '_GeneratorContextManager' object has no attribute 'query'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/dispatcher.py", line 320, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/dispatcher.py", line 164, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/middlewares/error.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 58, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/fsm/middleware.py", line 43, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/event/telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/event/handler.py", line 71, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/router.py", line 161, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/router.py", line 153, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/router.py", line 189, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/router.py", line 161, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/router.py", line 153, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/router.py", line 181, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/event/telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/app/middlewares/auth.py", line 39, in __call__
+    db.close()
+    ^^^^^^^^
+AttributeError: '_GeneratorContextManager' object has no attribute 'close'
+2026-02-09 13:08:12,509 - __main__ - INFO - Starting MicroBiz Bot...
+2026-02-09 13:08:13,116 - aiogram.dispatcher - INFO - Start polling
+2026-02-09 13:08:13,266 - aiogram.dispatcher - INFO - Run polling for bot @hiisaabot id=8596581643 - 'Hisaab'
+2026-02-09 13:08:13,423 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 13:08:13,423 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8596581643)
+2026-02-09 13:08:17,543 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 13:08:17,543 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8596581643)
+2026-02-09 13:08:17,591 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2026-02-09 13:08:17,592 - aiogram.dispatcher - INFO - Polling stopped for bot @hiisaabot id=8596581643 - 'Hisaab'
+2026-02-09 13:08:17,592 - aiogram.dispatcher - INFO - Polling stopped
+2026-02-09 13:08:28,667 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 8596581643)
+2026-02-09 13:08:29,595 - aiogram.event - INFO - Update id=442940099 is handled. Duration 400 ms by bot id=8596581643
+2026-02-09 13:08:32,096 - aiogram.event - INFO - Update id=442940100 is handled. Duration 149 ms by bot id=8596581643
+2026-02-09 13:08:35,184 - aiogram.event - INFO - Update id=442940101 is handled. Duration 2 ms by bot id=8596581643
+2026-02-09 13:08:40,713 - aiogram.event - INFO - Update id=442940102 is handled. Duration 166 ms by bot id=8596581643
+2026-02-09 13:08:42,789 - aiogram.event - INFO - Update id=442940103 is handled. Duration 2 ms by bot id=8596581643
+2026-02-09 13:08:44,237 - aiogram.event - INFO - Update id=442940104 is handled. Duration 3 ms by bot id=8596581643
+2026-02-09 13:08:45,730 - aiogram.event - INFO - Update id=442940105 is handled. Duration 3 ms by bot id=8596581643
+2026-02-09 13:08:47,036 - aiogram.event - INFO - Update id=442940106 is handled. Duration 228 ms by bot id=8596581643
+2026-02-09 13:08:48,025 - aiogram.event - INFO - Update id=442940107 is handled. Duration 3 ms by bot id=8596581643
+2026-02-09 13:08:49,479 - aiogram.event - INFO - Update id=442940108 is handled. Duration 2 ms by bot id=8596581643
+2026-02-09 13:08:50,730 - aiogram.event - INFO - Update id=442940109 is handled. Duration 152 ms by bot id=8596581643
+2026-02-09 13:08:56,074 - aiogram.event - INFO - Update id=442940110 is handled. Duration 162 ms by bot id=8596581643
+2026-02-09 13:09:00,128 - aiogram.event - INFO - Update id=442940111 is handled. Duration 2 ms by bot id=8596581643
+2026-02-09 13:09:03,397 - aiogram.event - INFO - Update id=442940112 is handled. Duration 730 ms by bot id=8596581643

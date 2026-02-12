@@ -1,0 +1,32 @@
+2026-02-09 12:27:18,380 - __main__ - INFO - Starting MicroBiz Bot...
+2026-02-09 12:27:18,912 - aiogram.dispatcher - INFO - Start polling
+2026-02-09 12:27:19,093 - aiogram.dispatcher - INFO - Run polling for bot @hiisaabot id=8596581643 - 'Hisaab'
+2026-02-09 12:27:23,324 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:27:23,324 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8596581643)
+2026-02-09 12:27:28,883 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:27:28,884 - aiogram.dispatcher - WARNING - Sleep for 1.507073 seconds and try again... (tryings = 1, bot id = 8596581643)
+2026-02-09 12:27:33,889 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:27:33,889 - aiogram.dispatcher - WARNING - Sleep for 2.031256 seconds and try again... (tryings = 2, bot id = 8596581643)
+2026-02-09 12:27:39,899 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:27:39,900 - aiogram.dispatcher - WARNING - Sleep for 2.719256 seconds and try again... (tryings = 3, bot id = 8596581643)
+2026-02-09 12:27:46,259 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:27:46,259 - aiogram.dispatcher - WARNING - Sleep for 3.577722 seconds and try again... (tryings = 4, bot id = 8596581643)
+2026-02-09 12:27:54,113 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:27:54,113 - aiogram.dispatcher - WARNING - Sleep for 4.444620 seconds and try again... (tryings = 5, bot id = 8596581643)
+2026-02-09 12:28:03,225 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-09 12:28:03,225 - aiogram.dispatcher - WARNING - Sleep for 4.807580 seconds and try again... (tryings = 6, bot id = 8596581643)
+2026-02-09 12:29:18,946 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2026-02-09 12:29:18,946 - aiogram.dispatcher - WARNING - Sleep for 4.985485 seconds and try again... (tryings = 7, bot id = 8596581643)
+2026-02-09 12:30:34,923 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2026-02-09 12:30:34,923 - aiogram.dispatcher - WARNING - Sleep for 4.881539 seconds and try again... (tryings = 8, bot id = 8596581643)
+2026-02-09 12:30:42,873 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [None]
+2026-02-09 12:30:42,873 - aiogram.dispatcher - WARNING - Sleep for 5.064373 seconds and try again... (tryings = 9, bot id = 8596581643)
+ try again... (tryings = 2, bot id = 8596581643)
+2026-02-09 12:29:16,889 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2026-02-09 12:29:16,889 - aiogram.dispatcher - WARNING - Sleep for 2.029977 seconds and try again... (tryings = 3, bot id = 8596581643)
+2026-02-09 12:30:29,921 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2026-02-09 12:30:29,921 - aiogram.dispatcher - WARNING - Sleep for 2.680425 seconds and try again... (tryings = 4, bot id = 8596581643)
+2026-02-09 12:30:36,690 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [None]
+2026-02-09 12:30:36,690 - aiogram.dispatcher - WARNING - Sleep for 3.401429 seconds and try again... (tryings = 5, bot id = 8596581643)
+2026-02-09 12:30:42,874 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [None]
+2026-02-09 12:30:42,874 - aiogram.dispatcher - WARNING - Sleep for 4.497279 seconds and try again... (tryings = 6, bot id = 8596581643)

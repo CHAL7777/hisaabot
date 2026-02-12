@@ -7,7 +7,7 @@ from aiogram import Bot
 from sqlalchemy.orm import Session
 
 from app.database.crud import get_user, get_today_sales, get_products
-from app.database.connection import get_db
+from app.database.connection import get_db_session
 from config import settings
 
 class Notifier:
@@ -37,99 +37,96 @@ class Notifier:
     
     async def send_daily_reminders(self):
         """Send daily reminders to all users"""
-        db = next(get_db())
-        
-        # Get all active users
-        # Note: In a real app, you'd have a method to get all users
-        # For now, we'll get users from the database directly
-        from app.database.models import User
-        users = db.query(User).filter(User.is_active == True).all()
-        
-        for user in users:
-            try:
-                # Check if user recorded sales today
-                sales = get_today_sales(db, user.id)
-                
-                if not sales:
-                    # No sales today - send reminder
-                    message = (
-                        "📝 *Daily Reminder*\n\n"
-                        "You haven't recorded any sales today!\n"
-                        "Use /sale to record your sales.\n\n"
-                        "Every transaction matters for accurate reporting! 💪"
-                    )
+        with get_db_session() as db:
+            # Get all active users
+            from app.database.models import User
+            users = db.query(User).filter(User.is_active == True).all()
+            
+            for user in users:
+                try:
+                    # Check if user recorded sales today
+                    sales = get_today_sales(db, user.id)
                     
-                    await self.bot.send_message(
-                        chat_id=user.telegram_id,
-                        text=message,
-                        parse_mode="Markdown"
-                    )
-                
-                # Check for low stock products
-                products = get_products(db, user.id)
-                low_stock_products = [
-                    p for p in products 
-                    if p.stock <= p.min_stock and p.stock > 0
-                ]
-                
-                if low_stock_products:
-                    message = "⚠️ *Low Stock Alert!*\n\n"
-                    for product in low_stock_products[:3]:  # Limit to 3 products
-                        message += f"• {product.name}: {product.stock} left (min: {product.min_stock})\n"
+                    if not sales:
+                        # No sales today - send reminder
+                        message = (
+                            "📝 *Daily Reminder*\n\n"
+                            "You haven't recorded any sales today!\n"
+                            "Use /sale to record your sales.\n\n"
+                            "Every transaction matters for accurate reporting! 💪"
+                        )
+                        
+                        await self.bot.send_message(
+                            chat_id=user.telegram_id,
+                            text=message,
+                            parse_mode="Markdown"
+                        )
                     
-                    if len(low_stock_products) > 3:
-                        message += f"\n... and {len(low_stock_products) - 3} more products running low."
+                    # Check for low stock products
+                    products = get_products(db, user.id)
+                    low_stock_products = [
+                        p for p in products 
+                        if p.stock <= p.min_stock and p.stock > 0
+                    ]
                     
-                    await self.bot.send_message(
-                        chat_id=user.telegram_id,
-                        text=message,
-                        parse_mode="Markdown"
-                    )
-                    
-            except Exception as e:
-                print(f"Error sending reminder to user {user.id}: {e}")
+                    if low_stock_products:
+                        message = "⚠️ *Low Stock Alert!*\n\n"
+                        for product in low_stock_products[:3]:  # Limit to 3 products
+                            message += f"• {product.name}: {product.stock} left (min: {product.min_stock})\n"
+                        
+                        if len(low_stock_products) > 3:
+                            message += f"\n... and {len(low_stock_products) - 3} more products running low."
+                        
+                        await self.bot.send_message(
+                            chat_id=user.telegram_id,
+                            text=message,
+                            parse_mode="Markdown"
+                        )
+                        
+                except Exception as e:
+                    print(f"Error sending reminder to user {user.id}: {e}")
     
     async def send_weekly_report(self):
         """Send weekly report to all users"""
-        db = next(get_db())
-        
-        from app.database.models import User
-        users = db.query(User).filter(User.is_active == True).all()
-        
-        for user in users:
-            try:
-                # Calculate week dates
-                today = datetime.now().date()
-                week_start = today - timedelta(days=today.weekday())
-                week_end = week_start + timedelta(days=6)
-                
-                # Get weekly totals (simplified)
-                from app.database.crud import get_total_sales, get_total_expenses
-                total_sales = get_total_sales(db, user.id, week_start, week_end)
-                total_expenses = get_total_expenses(db, user.id, week_start, week_end)
-                profit = total_sales - total_expenses
-                
-                message = (
-                    f"📊 *Weekly Report - Week {week_start.strftime('%d %b')} to {week_end.strftime('%d %b')}*\n\n"
-                    f"• Total Sales: {settings.CURRENCY} {total_sales:,.0f}\n"
-                    f"• Total Expenses: {settings.CURRENCY} {total_expenses:,.0f}\n"
-                    f"• Weekly Profit: {settings.CURRENCY} {profit:,.0f}\n\n"
-                )
-                
-                if profit > 0:
-                    message += "🌟 *Great week!* Keep up the good work! 🎉"
-                else:
-                    message += "💡 *Review your expenses* to improve profitability next week."
-                
-                await self.bot.send_message(
-                    chat_id=user.telegram_id,
-                    text=message,
-                    parse_mode="Markdown"
-                )
-                
-            except Exception as e:
-                print(f"Error sending weekly report to user {user.id}: {e}")
+        with get_db_session() as db:
+            from app.database.models import User
+            users = db.query(User).filter(User.is_active == True).all()
+            
+            for user in users:
+                try:
+                    # Calculate week dates
+                    today = datetime.now().date()
+                    week_start = today - timedelta(days=today.weekday())
+                    week_end = week_start + timedelta(days=6)
+                    
+                    # Get weekly totals (simplified)
+                    from app.database.crud import get_total_sales, get_total_expenses
+                    total_sales = get_total_sales(db, user.id, week_start, week_end)
+                    total_expenses = get_total_expenses(db, user.id, week_start, week_end)
+                    profit = total_sales - total_expenses
+                    
+                    message = (
+                        f"📊 *Weekly Report - Week {week_start.strftime('%d %b')} to {week_end.strftime('%d %b')}*\n\n"
+                        f"• Total Sales: {settings.CURRENCY} {total_sales:,.0f}\n"
+                        f"• Total Expenses: {settings.CURRENCY} {total_expenses:,.0f}\n"
+                        f"• Weekly Profit: {settings.CURRENCY} {profit:,.0f}\n\n"
+                    )
+                    
+                    if profit > 0:
+                        message += "🌟 *Great week!* Keep up the good work! 🎉"
+                    else:
+                        message += "💡 *Review your expenses* to improve profitability next week."
+                    
+                    await self.bot.send_message(
+                        chat_id=user.telegram_id,
+                        text=message,
+                        parse_mode="Markdown"
+                    )
+                    
+                except Exception as e:
+                    print(f"Error sending weekly report to user {user.id}: {e}")
     
     async def stop(self):
         """Stop the notifier"""
         self.scheduler.shutdown()
+

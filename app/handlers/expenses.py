@@ -3,7 +3,7 @@ from aiogram.filters import Command
 from aiogram.fsm.context import FSMContext
 from aiogram.fsm.state import State, StatesGroup
 from app.database.crud import get_user, create_expense, get_today_expenses
-from app.database.connection import get_db
+from app.database.connection import get_db_session
 from app.services.parser import Parser
 from config import messages, settings
 from datetime import datetime
@@ -18,8 +18,8 @@ class ExpenseStates(StatesGroup):
 @router.message(F.text.regexp(r'^💸 Record Expense$'))
 async def cmd_expense(message: types.Message, state: FSMContext):
     """Handle /expense command"""
-    db = next(get_db())
-    user = get_user(db, message.from_user.id)
+    with get_db_session() as db:
+        user = get_user(db, message.from_user.id)
     
     if not user:
         await message.answer("❌ Please use /start first.")
@@ -36,38 +36,65 @@ async def cmd_expense(message: types.Message, state: FSMContext):
     await state.set_state(ExpenseStates.waiting_for_expense)
 
 @router.message(ExpenseStates.waiting_for_expense)
-async def process_expense(message: types.Message, state: FSMContext):
+async def process_expense(message: types.Message, state: FSMContext, db=None):
     """Process expense input"""
-    db = next(get_db())
-    user = get_user(db, message.from_user.id)
+    # Skip if message is a command
+    if message.text and message.text.startswith('/'):
+        return
     
-    text = message.text.strip()
+    # Skip if message matches known commands/buttons
+    if message.text in ['💰 Record Sale', '📊 Today\'s Report', '👥 Customers', '💸 Record Expense', '📦 Inventory', '❓ Help']:
+        return
     
-    # Try to parse with parser
-    parser = Parser()
-    amount, category = parser.parse_expense(text)
+    # Use db session from middleware if available
+    should_close_db = False
+    if db is None:
+        db = get_db_session()
+        should_close_db = True
     
-    if amount is not None:
-        if category:
-            # Create expense with both amount and category
-            expense = create_expense(
-                db=db,
-                user_id=user.id,
-                amount=amount,
-                category=category.lower(),
-                description=text
-            )
-            
-            await message.answer(
-                f"✅ Expense recorded!\n"
-                f"• Amount: {settings.CURRENCY} {amount:,.0f}\n"
-                f"• Category: {category}\n"
-                f"• Time: {datetime.now().strftime('%H:%M')}",
-                parse_mode="Markdown"
-            )
-            await state.clear()
-        else:
-            # Only amount provided, ask for category
+    try:
+        user = get_user(db, message.from_user.id)
+        text = message.text.strip()
+        
+        # Try to parse with parser
+        parser = Parser()
+        amount, category = parser.parse_expense(text)
+        
+        if amount is not None:
+            if category:
+                # Create expense with both amount and category
+                expense = create_expense(
+                    db=db,
+                    user_id=user.id,
+                    amount=amount,
+                    category=category.lower(),
+                    description=text
+                )
+                
+                await message.answer(
+                    f"✅ Expense recorded!\n"
+                    f"• Amount: {settings.CURRENCY} {amount:,.0f}\n"
+                    f"• Category: {category}\n"
+                    f"• Time: {datetime.now().strftime('%H:%M')}",
+                    parse_mode="Markdown"
+                )
+                await state.clear()
+                return
+            else:
+                # Only amount provided, ask for category
+                await state.update_data(amount=amount)
+                await message.answer(
+                    f"Amount: {settings.CURRENCY} {amount:,.0f}\n"
+                    "Enter expense category:\n"
+                    "(supplies, rent, salary, transport, utilities, or custom)",
+                    parse_mode="Markdown"
+                )
+                await state.set_state(ExpenseStates.waiting_for_category)
+                return
+        
+        elif text.replace('.', '').isdigit():
+            # Only number provided
+            amount = float(text)
             await state.update_data(amount=amount)
             await message.answer(
                 f"Amount: {settings.CURRENCY} {amount:,.0f}\n"
@@ -76,43 +103,48 @@ async def process_expense(message: types.Message, state: FSMContext):
                 parse_mode="Markdown"
             )
             await state.set_state(ExpenseStates.waiting_for_category)
-    
-    elif text.replace('.', '').isdigit():
-        # Only number provided
-        amount = float(text)
-        await state.update_data(amount=amount)
-        await message.answer(
-            f"Amount: {settings.CURRENCY} {amount:,.0f}\n"
-            "Enter expense category:\n"
-            "(supplies, rent, salary, transport, utilities, or custom)",
-            parse_mode="Markdown"
-        )
-        await state.set_state(ExpenseStates.waiting_for_category)
-    
-    else:
-        await message.answer(
-            "❌ Please enter amount and category.\n"
-            "Example: `500 supplies`",
-            parse_mode="Markdown"
-        )
+            return
+        
+        else:
+            await message.answer(
+                "❌ Please enter amount and category.\n"
+                "Example: `500 supplies`",
+                parse_mode="Markdown"
+            )
+    finally:
+        if should_close_db:
+            db.close()
 
 @router.message(ExpenseStates.waiting_for_category)
-async def process_expense_category(message: types.Message, state: FSMContext):
+async def process_expense_category(message: types.Message, state: FSMContext, db=None):
     """Process expense category"""
+    # Ignore any command messages
+    if message.text and message.text.startswith('/'):
+        return
+    
     data = await state.get_data()
     amount = data.get('amount', 0)
     category = message.text.strip().lower()
     
-    db = next(get_db())
-    user = get_user(db, message.from_user.id)
+    # Use db session from middleware if available
+    should_close_db = False
+    if db is None:
+        db = get_db_session()
+        should_close_db = True
     
-    expense = create_expense(
-        db=db,
-        user_id=user.id,
-        amount=amount,
-        category=category,
-        description=f"{category} expense"
-    )
+    try:
+        user = get_user(db, message.from_user.id)
+        
+        expense = create_expense(
+            db=db,
+            user_id=user.id,
+            amount=amount,
+            category=category,
+            description=f"{category} expense"
+        )
+    finally:
+        if should_close_db:
+            db.close()
     
     await message.answer(
         f"✅ Expense recorded!\n"
@@ -124,34 +156,44 @@ async def process_expense_category(message: types.Message, state: FSMContext):
     await state.clear()
 
 @router.message(Command("expenses_today"))
-async def cmd_expenses_today(message: types.Message):
+async def cmd_expenses_today(message: types.Message, db=None):
     """Show today's expenses"""
-    db = next(get_db())
-    user = get_user(db, message.from_user.id)
+    # Use db session from middleware if available
+    should_close_db = False
+    if db is None:
+        db = get_db_session()
+        should_close_db = True
     
-    if not user:
-        await message.answer("❌ Please use /start first.")
-        return
-    
-    expenses = get_today_expenses(db, user.id)
-    
-    if not expenses:
-        await message.answer("📭 No expenses recorded today.")
-        return
-    
-    total = sum(exp.amount for exp in expenses)
-    
-    report = f"💸 *Today's Expenses*\n"
-    report += f"• Total: {settings.CURRENCY} {total:,.0f}\n"
-    report += f"• Count: {len(expenses)}\n\n"
-    report += "*Details:*\n"
-    
-    # Group by category
-    categories = {}
-    for exp in expenses:
-        categories[exp.category] = categories.get(exp.category, 0) + exp.amount
-    
-    for category, amount in categories.items():
-        report += f"• {category.title()}: {settings.CURRENCY} {amount:,.0f}\n"
-    
-    await message.answer(report, parse_mode="Markdown")
+    try:
+        user = get_user(db, message.from_user.id)
+        
+        if not user:
+            await message.answer("❌ Please use /start first.")
+            return
+        
+        expenses = get_today_expenses(db, user.id)
+        
+        if not expenses:
+            await message.answer("📭 No expenses recorded today.")
+            return
+        
+        total = sum(exp.amount for exp in expenses)
+        
+        report = f"💸 *Today's Expenses*\n"
+        report += f"• Total: {settings.CURRENCY} {total:,.0f}\n"
+        report += f"• Count: {len(expenses)}\n\n"
+        report += "*Details:*\n"
+        
+        # Group by category
+        categories = {}
+        for exp in expenses:
+            categories[exp.category] = categories.get(exp.category, 0) + exp.amount
+        
+        for category, amount in categories.items():
+            report += f"• {category.title()}: {settings.CURRENCY} {amount:,.0f}\n"
+        
+        await message.answer(report, parse_mode="Markdown")
+    finally:
+        if should_close_db:
+            db.close()
+
