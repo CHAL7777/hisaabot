@@ -1,4 +1,4 @@
-from aiogram import Router, types, F
+from aiogram import Router, types
 from aiogram.filters import Command
 from aiogram.fsm.context import FSMContext
 from aiogram.fsm.state import State, StatesGroup
@@ -7,13 +7,21 @@ from app.database.crud import (
     get_total_expenses
 )
 from app.database.connection import get_db_session
-from app.services.calculator import Calculator
 from app.services.reports import ReportGenerator
-from config import messages, settings
+from config import settings
 from datetime import datetime, date, timedelta
-from typing import Tuple
 
 router = Router()
+MENU_BUTTONS = {
+    "💰 Record Sale",
+    "📊 Today's Report",
+    "👥 Customers",
+    "🧑‍💼 Team",
+    "🚀 Insights",
+    "💸 Record Expense",
+    "📦 Inventory",
+    "❓ Help",
+}
 
 class ReportStates(StatesGroup):
     waiting_for_date = State()
@@ -113,6 +121,22 @@ async def cmd_profit(message: types.Message):
         
         await message.answer(report, parse_mode="Markdown")
 
+@router.message(Command("insights"))
+@router.message(lambda message: message.text == "🚀 Insights")
+async def cmd_insights(message: types.Message):
+    """Generate smart 7-day business insights."""
+    with get_db_session() as db:
+        user = get_user(db, message.from_user.id)
+
+        if not user:
+            await message.answer("❌ Please use /start first.")
+            return
+
+        generator = ReportGenerator()
+        report = generator.generate_insights_report(db, user.id, days=7)
+
+        await message.answer(report, parse_mode="Markdown")
+
 @router.message(Command("custom_report"))
 async def cmd_custom_report(message: types.Message, state: FSMContext):
     """Start custom report generation"""
@@ -135,6 +159,24 @@ async def cmd_custom_report(message: types.Message, state: FSMContext):
 @router.message(ReportStates.waiting_for_date)
 async def process_custom_date(message: types.Message, state: FSMContext):
     """Process custom date range"""
+    if not message.text:
+        await message.answer(
+            "❌ Invalid date format.\n"
+            "Please use: `DD-MM-YYYY to DD-MM-YYYY`",
+            parse_mode="Markdown",
+        )
+        return
+
+    if message.text.startswith("/"):
+        await state.clear()
+        await message.answer("Custom report input cancelled. Run your command again.")
+        return
+
+    if message.text in MENU_BUTTONS:
+        await state.clear()
+        await message.answer("Custom report input cancelled. Tap the menu option again.")
+        return
+
     text = message.text.strip()
     
     # Parse date range
@@ -168,4 +210,3 @@ async def process_custom_date(message: types.Message, state: FSMContext):
             "Example: `01-01-2024 to 31-01-2024`",
             parse_mode="Markdown"
         )
-

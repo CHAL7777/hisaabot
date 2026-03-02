@@ -7,7 +7,7 @@ import sys
 import os
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-def test_sqlite():
+def check_sqlite():
     """Test SQLite connection"""
     from sqlalchemy import create_engine, text
     from config import db_config
@@ -26,7 +26,7 @@ def test_sqlite():
         print(f"✗ SQLite connection failed: {e}")
         return False
 
-def test_postgresql():
+def check_postgresql():
     """Test PostgreSQL connection"""
     from sqlalchemy import create_engine, text
     from config import db_config
@@ -57,10 +57,10 @@ def main():
     print("=" * 50)
     
     print("\n[1] Testing SQLite (fallback):")
-    sqlite_ok = test_sqlite()
+    sqlite_ok = check_sqlite()
     
     print("\n[2] Testing PostgreSQL:")
-    pg_ok = test_postgresql()
+    pg_ok = check_postgresql()
     
     print("\n" + "=" * 50)
     if sqlite_ok:
@@ -75,4 +75,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-

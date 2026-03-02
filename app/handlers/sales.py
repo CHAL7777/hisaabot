@@ -3,7 +3,7 @@ from aiogram.filters import Command
 from aiogram.fsm.context import FSMContext
 from aiogram.fsm.state import State, StatesGroup
 from app.database.crud import get_user, create_sale, get_today_sales
-from app.database.connection import get_db_session
+from app.database.connection import SessionLocal, get_db_session
 from app.services.parser import Parser
 from app.services.calculator import Calculator
 from config import messages, settings
@@ -11,6 +11,16 @@ from datetime import datetime
 import re
 
 router = Router()
+MENU_BUTTONS = {
+    "💰 Record Sale",
+    "📊 Today's Report",
+    "👥 Customers",
+    "🧑‍💼 Team",
+    "🚀 Insights",
+    "💸 Record Expense",
+    "📦 Inventory",
+    "❓ Help",
+}
 
 class SaleStates(StatesGroup):
     waiting_for_sale = State()
@@ -43,16 +53,20 @@ async def process_sale(message: types.Message, state: FSMContext, db=None):
     """Process sale input"""
     # Skip if message is a command
     if message.text and message.text.startswith('/'):
+        await state.clear()
+        await message.answer("Previous sale input cancelled. Run your command again.")
         return
     
     # Skip if message matches known commands/buttons
-    if message.text in ['💰 Record Sale', '📊 Today\'s Report', '👥 Customers', '💸 Record Expense', '📦 Inventory', '❓ Help']:
+    if message.text in MENU_BUTTONS:
+        await state.clear()
+        await message.answer("Previous sale input cancelled. Tap the menu option again.")
         return
     
     # Use db session from middleware if available
     should_close_db = False
     if db is None:
-        db = get_db_session()
+        db = SessionLocal()
         should_close_db = True
     
     try:
@@ -109,6 +123,16 @@ async def process_sale(message: types.Message, state: FSMContext, db=None):
 @router.message(SaleStates.waiting_for_quantity)
 async def process_product_name(message: types.Message, state: FSMContext, db=None):
     """Process product name after amount"""
+    if message.text and message.text.startswith('/'):
+        await state.clear()
+        await message.answer("Sale input cancelled. Run your command again.")
+        return
+
+    if message.text in MENU_BUTTONS:
+        await state.clear()
+        await message.answer("Sale input cancelled. Tap the menu option again.")
+        return
+
     data = await state.get_data()
     amount = data.get('amount', 0)
     product_name = message.text.strip()
@@ -116,7 +140,7 @@ async def process_product_name(message: types.Message, state: FSMContext, db=Non
     # Use db session from middleware if available
     should_close_db = False
     if db is None:
-        db = get_db_session()
+        db = SessionLocal()
         should_close_db = True
     
     try:
@@ -150,7 +174,7 @@ async def cmd_today(message: types.Message, db=None):
     # Use db session from middleware if available
     should_close_db = False
     if db is None:
-        db = get_db_session()
+        db = SessionLocal()
         should_close_db = True
     
     try:
@@ -191,4 +215,3 @@ async def cmd_today(message: types.Message, db=None):
     finally:
         if should_close_db:
             db.close()
-

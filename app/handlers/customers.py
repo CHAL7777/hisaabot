@@ -11,6 +11,16 @@ from config import messages, settings
 from datetime import datetime
 
 router = Router()
+MENU_BUTTONS = {
+    "💰 Record Sale",
+    "📊 Today's Report",
+    "👥 Customers",
+    "🧑‍💼 Team",
+    "🚀 Insights",
+    "💸 Record Expense",
+    "📦 Inventory",
+    "❓ Help",
+}
 
 class CustomerStates(StatesGroup):
     waiting_for_customer = State()
@@ -65,6 +75,16 @@ async def cmd_add_customer(message: types.Message, state: FSMContext):
 @router.message(CustomerStates.waiting_for_customer)
 async def process_customer_input(message: types.Message, state: FSMContext):
     """Process customer input"""
+    if message.text and message.text.startswith('/'):
+        await state.clear()
+        await message.answer("Customer input cancelled. Run your command again.")
+        return
+
+    if message.text in MENU_BUTTONS:
+        await state.clear()
+        await message.answer("Customer input cancelled. Tap the menu option again.")
+        return
+
     with get_db_session() as db:
         user = get_user(db, message.from_user.id)
         
@@ -228,4 +248,3 @@ async def cmd_credits(message: types.Message):
         response += "\n💡 *Tip:* Use /credit [customer] -[amount] to record payments."
         
         await message.answer(response, parse_mode="Markdown")
-

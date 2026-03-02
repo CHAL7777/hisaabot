@@ -6,10 +6,11 @@ from aiogram.fsm.strategy import FSMStrategy
 from config import bot_config
 from app.handlers import (
     start, sales, expenses, reports,
-    inventory, customers, help
+    inventory, customers, help, team
 )
 from app.middlewares.auth import AuthMiddleware
 from app.database.connection import init_db
+from app.services.notifier import Notifier
 
 async def main():
     """Main function to start the bot"""
@@ -18,6 +19,7 @@ async def main():
     
     # Create bot and dispatcher
     bot = Bot(token=bot_config.TOKEN)
+    notifier = Notifier(bot)
     storage = MemoryStorage()
     dp = Dispatcher(storage=storage, fsm_strategy=FSMStrategy.USER_IN_CHAT)
     
@@ -31,11 +33,17 @@ async def main():
     dp.include_router(reports.router)
     dp.include_router(inventory.router)
     dp.include_router(customers.router)
+    dp.include_router(team.router)
     dp.include_router(help.router)
     
-    # Start polling
-    await bot.delete_webhook(drop_pending_updates=True)
-    await dp.start_polling(bot)
+    # Start notifier and bot polling
+    await notifier.start()
+    try:
+        await bot.delete_webhook(drop_pending_updates=True)
+        await dp.start_polling(bot)
+    finally:
+        await notifier.stop()
+        await bot.session.close()
 
 if __name__ == "__main__":
     asyncio.run(main())

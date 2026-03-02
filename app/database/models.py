@@ -1,5 +1,5 @@
-from sqlalchemy import Column, Integer, String, Float, DateTime, Boolean, Text
-from sqlalchemy.ext.declarative import declarative_base
+from sqlalchemy import Column, Integer, String, Float, DateTime, Boolean, Text, ForeignKey
+from sqlalchemy.orm import declarative_base
 from datetime import datetime
 
 Base = declarative_base()
@@ -22,6 +22,55 @@ class User(Base):
     
     def __repr__(self):
         return f"<User(id={self.id}, telegram_id={self.telegram_id}, name='{self.full_name}')>"
+
+class Business(Base):
+    __tablename__ = "businesses"
+
+    id = Column(Integer, primary_key=True)
+    name = Column(String(200), nullable=False)
+    owner_user_id = Column(Integer, ForeignKey("users.id"), nullable=False, index=True)
+    currency = Column(String(10), default="Rp")
+    timezone = Column(String(64), default="UTC")
+    logo_file_id = Column(String(255), nullable=True)
+    is_active = Column(Boolean, default=True)
+    created_at = Column(DateTime, default=datetime.now)
+    updated_at = Column(DateTime, default=datetime.now, onupdate=datetime.now)
+
+    def __repr__(self):
+        return f"<Business(id={self.id}, name='{self.name}', owner={self.owner_user_id})>"
+
+class BusinessMember(Base):
+    __tablename__ = "business_members"
+
+    id = Column(Integer, primary_key=True)
+    business_id = Column(Integer, ForeignKey("businesses.id"), nullable=False, index=True)
+    user_id = Column(Integer, ForeignKey("users.id"), nullable=False, index=True)
+    role = Column(String(20), nullable=False, default="staff")  # owner, manager, staff
+    status = Column(String(20), nullable=False, default="active")  # active, invited, suspended
+    invited_by = Column(Integer, ForeignKey("users.id"), nullable=True)
+    created_at = Column(DateTime, default=datetime.now)
+    updated_at = Column(DateTime, default=datetime.now, onupdate=datetime.now)
+
+    def __repr__(self):
+        return (
+            f"<BusinessMember(id={self.id}, business_id={self.business_id}, "
+            f"user_id={self.user_id}, role='{self.role}', status='{self.status}')>"
+        )
+
+class ActivityLog(Base):
+    __tablename__ = "activity_logs"
+
+    id = Column(Integer, primary_key=True)
+    business_id = Column(Integer, ForeignKey("businesses.id"), nullable=False, index=True)
+    actor_user_id = Column(Integer, ForeignKey("users.id"), nullable=False, index=True)
+    action = Column(String(80), nullable=False, index=True)
+    entity_type = Column(String(50), nullable=False)
+    entity_id = Column(Integer, nullable=True)
+    metadata_json = Column(Text, nullable=True)
+    created_at = Column(DateTime, default=datetime.now, index=True)
+
+    def __repr__(self):
+        return f"<ActivityLog(id={self.id}, action='{self.action}', actor={self.actor_user_id})>"
 
 class Sale(Base):
     __tablename__ = "sales"

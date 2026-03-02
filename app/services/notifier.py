@@ -1,12 +1,9 @@
-from datetime import datetime, time, timedelta
-from typing import List
-import asyncio
+from datetime import datetime, timedelta
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from apscheduler.triggers.cron import CronTrigger
 from aiogram import Bot
-from sqlalchemy.orm import Session
 
-from app.database.crud import get_user, get_today_sales, get_products
+from app.database.crud import get_today_sales, get_products
 from app.database.connection import get_db_session
 from config import settings
 
@@ -21,18 +18,21 @@ class Notifier:
         self.scheduler.add_job(
             self.send_daily_reminders,
             CronTrigger(hour=settings.DAILY_REPORT_HOUR, minute=0),
-            id="daily_reminder"
+            id="daily_reminder",
+            replace_existing=True,
         )
         
         # Schedule weekly report on Monday at 9 AM
         self.scheduler.add_job(
             self.send_weekly_report,
             CronTrigger(day_of_week=settings.WEEKLY_REPORT_DAY, hour=9, minute=0),
-            id="weekly_report"
+            id="weekly_report",
+            replace_existing=True,
         )
         
         # Start scheduler
-        self.scheduler.start()
+        if not self.scheduler.running:
+            self.scheduler.start()
         print(f"Notifier started. Daily reminders at {settings.DAILY_REPORT_HOUR}:00")
     
     async def send_daily_reminders(self):
@@ -128,5 +128,5 @@ class Notifier:
     
     async def stop(self):
         """Stop the notifier"""
-        self.scheduler.shutdown()
-
+        if self.scheduler.running:
+            self.scheduler.shutdown(wait=False)

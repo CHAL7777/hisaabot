@@ -3,12 +3,22 @@ from aiogram.filters import Command
 from aiogram.fsm.context import FSMContext
 from aiogram.fsm.state import State, StatesGroup
 from app.database.crud import get_user, create_expense, get_today_expenses
-from app.database.connection import get_db_session
+from app.database.connection import SessionLocal, get_db_session
 from app.services.parser import Parser
 from config import messages, settings
 from datetime import datetime
 
 router = Router()
+MENU_BUTTONS = {
+    "💰 Record Sale",
+    "📊 Today's Report",
+    "👥 Customers",
+    "🧑‍💼 Team",
+    "🚀 Insights",
+    "💸 Record Expense",
+    "📦 Inventory",
+    "❓ Help",
+}
 
 class ExpenseStates(StatesGroup):
     waiting_for_expense = State()
@@ -40,16 +50,20 @@ async def process_expense(message: types.Message, state: FSMContext, db=None):
     """Process expense input"""
     # Skip if message is a command
     if message.text and message.text.startswith('/'):
+        await state.clear()
+        await message.answer("Previous expense input cancelled. Run your command again.")
         return
     
     # Skip if message matches known commands/buttons
-    if message.text in ['💰 Record Sale', '📊 Today\'s Report', '👥 Customers', '💸 Record Expense', '📦 Inventory', '❓ Help']:
+    if message.text in MENU_BUTTONS:
+        await state.clear()
+        await message.answer("Previous expense input cancelled. Tap the menu option again.")
         return
     
     # Use db session from middleware if available
     should_close_db = False
     if db is None:
-        db = get_db_session()
+        db = SessionLocal()
         should_close_db = True
     
     try:
@@ -120,6 +134,13 @@ async def process_expense_category(message: types.Message, state: FSMContext, db
     """Process expense category"""
     # Ignore any command messages
     if message.text and message.text.startswith('/'):
+        await state.clear()
+        await message.answer("Expense input cancelled. Run your command again.")
+        return
+
+    if message.text in MENU_BUTTONS:
+        await state.clear()
+        await message.answer("Expense input cancelled. Tap the menu option again.")
         return
     
     data = await state.get_data()
@@ -129,7 +150,7 @@ async def process_expense_category(message: types.Message, state: FSMContext, db
     # Use db session from middleware if available
     should_close_db = False
     if db is None:
-        db = get_db_session()
+        db = SessionLocal()
         should_close_db = True
     
     try:
@@ -161,7 +182,7 @@ async def cmd_expenses_today(message: types.Message, db=None):
     # Use db session from middleware if available
     should_close_db = False
     if db is None:
-        db = get_db_session()
+        db = SessionLocal()
         should_close_db = True
     
     try:
@@ -196,4 +217,3 @@ async def cmd_expenses_today(message: types.Message, db=None):
     finally:
         if should_close_db:
             db.close()
-

@@ -10,6 +10,16 @@ from app.database.connection import get_db_session
 from config import messages, settings
 
 router = Router()
+MENU_BUTTONS = {
+    "💰 Record Sale",
+    "📊 Today's Report",
+    "👥 Customers",
+    "🧑‍💼 Team",
+    "🚀 Insights",
+    "💸 Record Expense",
+    "📦 Inventory",
+    "❓ Help",
+}
 
 class InventoryStates(StatesGroup):
     waiting_for_product = State()
@@ -68,6 +78,16 @@ async def cmd_add_product(message: types.Message, state: FSMContext):
 @router.message(InventoryStates.waiting_for_product)
 async def process_product_input(message: types.Message, state: FSMContext):
     """Process product input"""
+    if message.text and message.text.startswith('/'):
+        await state.clear()
+        await message.answer("Product input cancelled. Run your command again.")
+        return
+
+    if message.text in MENU_BUTTONS:
+        await state.clear()
+        await message.answer("Product input cancelled. Tap the menu option again.")
+        return
+
     with get_db_session() as db:
         user = get_user(db, message.from_user.id)
         
@@ -264,4 +284,3 @@ async def cmd_add_stock(message: types.Message):
             )
         else:
             await message.answer("❌ Failed to update stock")
-

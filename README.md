@@ -1,283 +1,252 @@
-# MicroBiz Telegram Bot 🤖
+# MicroBiz Telegram Bot
 
-A comprehensive Telegram bot for micro-business management. Track sales, expenses, inventory, customers, and generate reports.
+MicroBiz is a Telegram bot for small businesses to track sales, expenses, stock, customer credit, and business performance in one chat interface.
 
-## Features
+## What You Get
 
-- 💰 **Sales Tracking**: Record sales with product names and quantities
-- 💸 **Expense Management**: Categorize and track business expenses
-- 📦 **Inventory Management**: Track stock levels with low-stock alerts
-- 👥 **Customer Management**: Track customer credits and purchases
-- 📊 **Reporting**: Daily, weekly, monthly, and custom reports
-- 🔔 **Automated Reminders**: Daily sales reminders and low-stock alerts
-- 📈 **Profit Calculation**: Automatic profit/loss calculations
+- Fast sales and expense recording from chat
+- Inventory tracking with low-stock alerts
+- Customer credit tracking and payment updates
+- Multi-user team roles (owner, manager, staff) with permission control
+- Daily, weekly, monthly, and custom reports
+- Smart 7-day `/insights` analysis with recommendations
+- Automated reminders and weekly summary notifications
 
-## Installation
+## Tech Stack
 
-1. **Clone the repository**
+- Python + `aiogram` (Telegram bot framework)
+- SQLAlchemy ORM
+- APScheduler (background reminders/reports)
+- SQLite by default, PostgreSQL optional
+
+## Quick Start
+
+### 1. Clone and enter the project
+
 ```bash
-<<<<<<< HEAD
-git clone https://github.com/CHAL7777/hisaabot.git
+git clone git@github.com:CHAL7777/hisaabot.git
 cd hisaabot
-=======
-git clone https://github.com/yourusername/microbiz-bot.git
-cd microbiz-bot
 ```
 
-2. **Create virtual environment**
+### 2. Create a virtual environment
+
 ```bash
 python3 -m venv venv
 source venv/bin/activate
 ```
 
-3. **Install dependencies**
+### 3. Install dependencies
+
 ```bash
 pip install -r requirements.txt
 ```
 
-4. **Configure environment**
+### 4. Configure environment variables
+
 ```bash
 cp .env.example .env
-# Edit .env with your configuration
 ```
 
-5. **Run database migrations**
-```bash
-# For SQLite (development)
-python -m alembic upgrade head
+Set at least:
 
-# For PostgreSQL (production)
-export DB_URL=postgresql://user:password@localhost/microbiz
-python -m alembic upgrade head
+- `BOT_TOKEN` (required)
+- `ADMIN_IDS` (optional, comma-separated Telegram IDs)
+- `DB_URL` (optional; defaults to SQLite)
+- `TIMEZONE` (optional; defaults to `UTC`)
+
+Environment template:
+
+```env
+BOT_TOKEN=your_bot_token_here
+ADMIN_IDS=123456789,987654321
+DB_URL=sqlite:///microbiz.db
+DB_ECHO=false
+TIMEZONE=UTC
 ```
 
-6. **Start the bot**
+### 5. Run the bot
+
 ```bash
 python bot.py
 ```
 
-## Configuration
+On startup, tables are created automatically via SQLAlchemy `create_all`.
 
-### Environment Variables
+## Command Reference
 
-Create a `.env` file with the following variables:
+### Core
 
-```env
-# Telegram Bot Token
-BOT_TOKEN=your_bot_token_here
+- `/start` - Initialize bot and show keyboard
+- `/help` - Show command help
+- `/commands` - Alias for help
+- `/settings` - Show current settings
 
-# Admin User IDs (comma-separated)
-ADMIN_IDS=123456789,987654321
+### Sales
 
-# Database Configuration
-# SQLite (default - for development)
-DB_URL=sqlite:///microbiz.db
+- `/sale` - Record sale (interactive or inline)
+- `/today` - Show today’s sales summary
 
-# PostgreSQL (recommended for production)
-# DB_URL=postgresql://postgres:password@localhost/microbiz
+### Expenses
 
-# Database Echo (debug mode)
-DB_ECHO=false
+- `/expense` - Record expense (interactive or inline)
+- `/expenses_today` - Show today’s expenses summary
 
-# Timezone Configuration
-TIMEZONE=UTC
+### Inventory
 
-# Currency Symbol
-CURRENCY=Rp
-```
+- `/add_product` - Add product
+- `/products` - List inventory
+- `/stock` - Check product stock
+- `/add_stock` - Increase stock for a product
 
-### PostgreSQL Setup
+### Customers
 
-For production use, PostgreSQL is recommended. Follow these steps:
+- `/add_customer` - Add customer
+- `/customers` - List customers
+- `/credit` - Add/reduce customer credit
+- `/credits` - Show outstanding credits
 
-1. **Install PostgreSQL**
-```bash
-# Ubuntu/Debian
-sudo apt update
-sudo apt install postgresql postgresql-contrib
+### Reports and Analytics
 
-# RHEL/CentOS
-sudo yum install postgresql-server postgresql-contrib
-sudo postgresql-setup initdb
-sudo systemctl start postgresql
-sudo systemctl enable postgresql
-```
-
-2. **Configure PostgreSQL Authentication**
-
-Edit pg_hba.conf:
-```bash
-sudo nano /etc/postgresql/18/main/pg_hba.conf
-```
-
-Change authentication method:
-```
-# TYPE  DATABASE        USER            ADDRESS                 METHOD
-local   all             postgres                                md5
-host    all             all             127.0.0.1/32            md5
-```
-
-3. **Restart PostgreSQL**
-```bash
-sudo systemctl restart postgresql
-```
-
-4. **Create database and user**
-```bash
-sudo -u postgres psql
-```
-
-```sql
-CREATE DATABASE microbiz;
-CREATE USER microbiz_user WITH ENCRYPTED PASSWORD 'your_password';
-GRANT ALL PRIVILEGES ON DATABASE microbiz TO microbiz_user;
-\q
-```
-
-5. **Update .env file**
-```env
-DB_URL=postgresql://microbiz_user:your_password@localhost/microbiz
-```
-
-6. **Test connection**
-```bash
-python test_db.py
-```
-
-For detailed troubleshooting, see [DATABASE_TROUBLESHOOTING.md](DATABASE_TROUBLESHOOTING.md)
-
-## Usage
-
-### Available Commands
-
-**Sales & Expenses:**
-- `/sale [amount item]` - Record a sale
-- `/expense [amount reason]` - Record expense
-- `/today` - Today's summary
-
-**Inventory:**
-- `/add_product [name price stock]` - Add product
-- `/products` - List all products
-- `/stock [product]` - Check stock
-
-**Customers:**
-- `/add_customer [name phone]` - Add customer
-- `/credit [customer amount]` - Add credit
-- `/credits` - List all credits
-
-**Reports:**
 - `/report` - Daily report
 - `/weekly` - Weekly report
 - `/monthly` - Monthly report
+- `/profit` - Today’s profit
+- `/custom_report` - Custom date range report
+- `/insights` - Smart 7-day trend analysis and recommendations
 
-**Settings:**
-- `/settings` - Configure bot
-- `/help` - Show this message
+### Team and Roles
+
+- `/team` - List business members and roles
+- `/invite <telegram_id> <role>` - Add/update member role
+- `/set_role <telegram_id> <role>` - Change member role
+- `/remove_member <telegram_id>` - Remove member (owner-protected)
+- `/activity [limit]` - Show recent activity logs
+
+## Quick Input Formats
+
+### Sales examples
+
+- `500 bread`
+- `3x 500 bread`
+- `500 bread 3`
+
+### Expense examples
+
+- `500 supplies`
+- `supplies 500`
+
+### Inventory examples
+
+- `/add_product Bread 5000 100`
+- `/add_stock Bread 20`
+
+### Credit examples
+
+- `/credit John 50000` (customer owes you)
+- `/credit John -20000` (customer paid part of debt)
+
+## Main Keyboard Buttons
+
+- `💰 Record Sale`
+- `💸 Record Expense`
+- `📊 Today's Report`
+- `📦 Inventory`
+- `👥 Customers`
+- `🧑‍💼 Team`
+- `🚀 Insights`
+- `❓ Help`
+
+## Automated Notifications
+
+The notifier starts with the bot and schedules:
+
+- Daily reminder: `settings.DAILY_REPORT_HOUR` (default `20:00`)
+- Weekly summary: Monday at `09:00` (`settings.WEEKLY_REPORT_DAY = 0`)
+
+Timezone is controlled by `TIMEZONE` in `.env`.
+
+## Database Notes
+
+### SQLite (default)
+
+- Default URL: `sqlite:///microbiz.db`
+- Good for local/dev usage
+
+### PostgreSQL (optional)
+
+Set `DB_URL`, for example:
+
+```env
+DB_URL=postgresql://postgres:your_password@127.0.0.1/microbiz
+```
+
+Useful scripts:
+
+- `python scripts/quick_test.py` - quick DB connectivity check
+- `python scripts/check_schema.py` - inspect tables and schema
+- `python scripts/init_db_tables.py` - create tables manually
 
 ## Project Structure
 
-```
+```text
 microbiz_bot/
-├── bot.py                    # Main bot entry point
-├── config.py                 # Configuration classes
-├── requirements.txt          # Python dependencies
-├── test_db.py               # Database connection test
-├── .env.example             # Environment template
+├── bot.py                     # process entrypoint
+├── config.py                  # app settings and text messages
 ├── app/
-│   ├── __init__.py
-│   ├── main.py             # FastAPI main (if using)
+│   ├── main.py                # bot bootstrap, routers, middleware, notifier
 │   ├── database/
-│   │   ├── connection.py   # Database engine setup
-│   │   ├── crud.py         # Database operations
-│   │   └── models.py       # SQLAlchemy models
-│   ├── handlers/           # Telegram bot handlers
-│   │   ├── start.py
-│   │   ├── sales.py
-│   │   ├── expenses.py
-│   │   ├── inventory.py
-│   │   ├── customers.py
-│   │   └── reports.py
-│   ├── services/           # Business logic
-│   │   ├── parser.py
-│   │   ├── calculator.py
-│   │   ├── reports.py
-│   │   └── notifier.py
-│   └── middlewares/        # Bot middlewares
-│       ├── auth.py
-│       └── throttling.py
-├── scripts/
-│   ├── database_setup.py   # Database setup helper
-│   ├── quick_test.py       # Quick connection test
-│   └── daily_report.py     # Daily report script
-├── migrations/             # Alembic migrations
-├── tests/                  # Unit tests
-└── README.md
+│   │   ├── models.py
+│   │   ├── connection.py
+│   │   └── crud.py
+│   ├── handlers/              # Telegram command/message handlers
+│   ├── services/              # parser, reports, notifier, calculator
+│   └── middlewares/           # auth and throttling
+├── scripts/                   # utility scripts for DB and diagnostics
+└── tests/                     # unit/regression tests
 ```
 
 ## Development
 
-### Running Tests
+Run tests:
+
 ```bash
-pytest tests/
+pytest -q
 ```
 
-### Database Migrations
+Optional compile check:
+
 ```bash
-# Create new migration
-python -m alembic revision -m "description"
-
-# Apply migrations
-python -m alembic upgrade head
-
-# Rollback
-python -m alembic downgrade -1
+python -m compileall -q app tests
 ```
-
-### Adding New Commands
-
-1. Create a new handler file in `app/handlers/`
-2. Register handlers in `app/main.py`
-3. Add to help message in `config.py`
 
 ## Troubleshooting
 
-### Database Connection Issues
+### Bot does not respond
 
-**Error: "Ident authentication failed for user postgres"**
+- Verify `BOT_TOKEN` in `.env`
+- Confirm bot is running (`python bot.py`)
+- Check logs (`bot.log`)
+- Send `/start` once to initialize user and keyboard
 
-This is a PostgreSQL authentication issue. See [DATABASE_TROUBLESHOOTING.md](DATABASE_TROUBLESHOOTING.md) for solutions.
+### DB connection errors
 
-**Quick fix for development:**
+- For local development, use SQLite:
+  - `DB_URL=sqlite:///microbiz.db`
+- For PostgreSQL, verify credentials/host/port/database in `DB_URL`
+- Run `python scripts/quick_test.py`
+- See [DATABASE_TROUBLESHOOTING.md](DATABASE_TROUBLESHOOTING.md)
 
-Use SQLite instead of PostgreSQL:
-```env
-DB_URL=sqlite:///microbiz.db
-```
+### Scheduled reminders not firing
 
-### Bot Not Responding
+- Verify `TIMEZONE` is valid
+- Check bot process is continuously running
+- Confirm your users have started the bot at least once
 
-1. Check bot token is correct in `.env`
-2. Verify bot has necessary permissions
-3. Check logs for errors
-4. Restart the bot process
+## Configuration Caveat
 
-## Contributing
+`CURRENCY` exists in `.env.example`, but current runtime currency is fixed in `config.py` (`Settings.CURRENCY = "Rp"`).  
+If you want a different symbol immediately, update `config.py`.
 
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push to the branch
-5. Open a Pull Request
+## Advanced Upgrade Plan
 
-## License
-
-MIT License - see LICENSE file for details
-
-## Support
-
-For issues and questions:
-- Open a GitHub issue
-- Check troubleshooting section
-- Review database troubleshooting guide
-
->>>>>>> 031f337 (micro)
+For the full implementation blueprint for role-based access, exports/backups, profit tracking, invoices, and goal tracking, see [ADVANCED_FEATURES_BLUEPRINT.md](ADVANCED_FEATURES_BLUEPRINT.md).

@@ -1,7 +1,6 @@
 from typing import Callable, Dict, Any, Awaitable
 from aiogram import BaseMiddleware
 from aiogram.types import Message
-import asyncio
 from collections import defaultdict
 from datetime import datetime, timedelta
 
@@ -32,10 +31,7 @@ class ThrottlingMiddleware(BaseMiddleware):
             # Rate limit exceeded
             if event.text and not event.text.startswith('/'):
                 # Don't throttle commands, only regular messages
-                await event.answer(
-                    "⏳ Please wait a moment before sending another message.",
-                    show_alert=False
-                )
+                await event.answer("⏳ Please wait a moment before sending another message.")
                 return
         
         # Add current message time

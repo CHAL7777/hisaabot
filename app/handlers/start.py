@@ -1,7 +1,7 @@
 from aiogram import Router, types
 from aiogram.filters import Command
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
-from app.database.crud import get_user, create_user
+from app.database.crud import get_user, create_user, ensure_user_business_context
 from app.database.connection import get_db_session
 from config import messages
 
@@ -20,6 +20,10 @@ main_keyboard = ReplyKeyboardMarkup(
         ],
         [
             KeyboardButton(text="👥 Customers"),
+            KeyboardButton(text="🧑‍💼 Team")
+        ],
+        [
+            KeyboardButton(text="🚀 Insights"),
             KeyboardButton(text="❓ Help")
         ]
     ],
@@ -44,6 +48,9 @@ async def cmd_start(message: types.Message):
             welcome_msg = f"🎉 Welcome to MicroBiz Bot, {message.from_user.full_name}!\n\n{messages.WELCOME}"
         else:
             welcome_msg = f"👋 Welcome back, {user.full_name}!\n\nUse /help to see available commands."
+
+        business, membership = ensure_user_business_context(db, user)
+        welcome_msg += f"\n\n🏢 Business: *{business.name}* (`{membership.role}` role)"
     
     await message.answer(
         welcome_msg,
@@ -85,4 +92,3 @@ async def cmd_settings(message: types.Message):
 """
     
     await message.answer(settings_text, parse_mode="Markdown")
-

@@ -1802,3 +1802,233 @@ AttributeError: '_GeneratorContextManager' object has no attribute 'close'
 2026-02-09 13:08:56,074 - aiogram.event - INFO - Update id=442940110 is handled. Duration 162 ms by bot id=8596581643
 2026-02-09 13:09:00,128 - aiogram.event - INFO - Update id=442940111 is handled. Duration 2 ms by bot id=8596581643
 2026-02-09 13:09:03,397 - aiogram.event - INFO - Update id=442940112 is handled. Duration 730 ms by bot id=8596581643
+2026-03-02 00:26:32,326 - __main__ - INFO - Starting MicroBiz Bot...
+2026-03-02 00:26:32,876 - aiogram.dispatcher - INFO - Start polling
+2026-03-02 00:26:33,081 - aiogram.dispatcher - INFO - Run polling for bot @hiisaabot id=8596581643 - 'Hisaab'
+2026-03-02 00:27:08,115 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2026-03-02 00:27:08,116 - aiogram.dispatcher - INFO - Polling stopped for bot @hiisaabot id=8596581643 - 'Hisaab'
+2026-03-02 00:27:08,116 - aiogram.dispatcher - INFO - Polling stopped
+2026-03-02 00:27:14,365 - __main__ - INFO - Starting MicroBiz Bot...
+2026-03-02 00:27:14,391 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-03-02 00:27:14,391 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-03-02 00:27:14,392 - apscheduler.scheduler - INFO - Added job "Notifier.send_daily_reminders" to job store "default"
+2026-03-02 00:27:14,393 - apscheduler.scheduler - INFO - Added job "Notifier.send_weekly_report" to job store "default"
+2026-03-02 00:27:14,393 - apscheduler.scheduler - INFO - Scheduler started
+2026-03-02 00:27:14,825 - aiogram.dispatcher - INFO - Start polling
+2026-03-02 00:27:14,989 - aiogram.dispatcher - INFO - Run polling for bot @hiisaabot id=8596581643 - 'Hisaab'
+2026-03-02 00:27:31,349 - aiogram.event - INFO - Update id=442940118 is handled. Duration 583 ms by bot id=8596581643
+2026-03-02 00:27:33,802 - aiogram.event - INFO - Update id=442940119 is handled. Duration 192 ms by bot id=8596581643
+2026-03-02 00:27:35,810 - aiogram.event - INFO - Update id=442940120 is handled. Duration 163 ms by bot id=8596581643
+2026-03-02 00:27:37,554 - aiogram.event - INFO - Update id=442940121 is handled. Duration 231 ms by bot id=8596581643
+2026-03-02 00:27:39,126 - aiogram.event - INFO - Update id=442940122 is handled. Duration 307 ms by bot id=8596581643
+2026-03-02 00:27:41,329 - aiogram.event - INFO - Update id=442940123 is handled. Duration 184 ms by bot id=8596581643
+2026-03-02 00:27:43,326 - aiogram.event - INFO - Update id=442940124 is handled. Duration 308 ms by bot id=8596581643
+2026-03-02 00:27:44,602 - aiogram.event - INFO - Update id=442940125 is handled. Duration 182 ms by bot id=8596581643
+2026-03-02 00:27:46,403 - aiogram.event - INFO - Update id=442940126 is handled. Duration 184 ms by bot id=8596581643
+2026-03-02 00:27:48,143 - aiogram.event - INFO - Update id=442940127 is handled. Duration 207 ms by bot id=8596581643
+2026-03-02 00:27:50,901 - aiogram.event - INFO - Update id=442940128 is handled. Duration 167 ms by bot id=8596581643
+2026-03-02 00:27:52,632 - aiogram.event - INFO - Update id=442940129 is handled. Duration 193 ms by bot id=8596581643
+2026-03-02 00:27:53,900 - aiogram.event - INFO - Update id=442940130 is handled. Duration 185 ms by bot id=8596581643
+2026-03-02 00:27:55,426 - aiogram.event - INFO - Update id=442940131 is handled. Duration 202 ms by bot id=8596581643
+2026-03-02 00:29:24,814 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2026-03-02 00:29:24,814 - aiogram.dispatcher - INFO - Polling stopped for bot @hiisaabot id=8596581643 - 'Hisaab'
+2026-03-02 00:29:24,815 - aiogram.dispatcher - INFO - Polling stopped
+2026-03-02 00:29:25,066 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2026-03-02 00:29:31,290 - __main__ - INFO - Starting MicroBiz Bot...
+2026-03-02 00:29:31,311 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-03-02 00:29:31,312 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-03-02 00:29:31,313 - apscheduler.scheduler - INFO - Added job "Notifier.send_daily_reminders" to job store "default"
+2026-03-02 00:29:31,313 - apscheduler.scheduler - INFO - Added job "Notifier.send_weekly_report" to job store "default"
+2026-03-02 00:29:31,314 - apscheduler.scheduler - INFO - Scheduler started
+2026-03-02 00:29:31,838 - aiogram.dispatcher - INFO - Start polling
+2026-03-02 00:29:31,992 - aiogram.dispatcher - INFO - Run polling for bot @hiisaabot id=8596581643 - 'Hisaab'
+2026-03-02 00:29:38,938 - aiogram.event - INFO - Update id=442940132 is handled. Duration 505 ms by bot id=8596581643
+2026-03-02 00:29:40,104 - aiogram.event - INFO - Update id=442940133 is handled. Duration 192 ms by bot id=8596581643
+2026-03-02 00:29:41,109 - aiogram.event - INFO - Update id=442940134 is handled. Duration 285 ms by bot id=8596581643
+2026-03-02 00:29:42,748 - aiogram.event - INFO - Update id=442940135 is handled. Duration 165 ms by bot id=8596581643
+2026-03-02 00:29:44,309 - aiogram.event - INFO - Update id=442940136 is handled. Duration 180 ms by bot id=8596581643
+2026-03-02 00:29:47,087 - aiogram.event - INFO - Update id=442940137 is handled. Duration 267 ms by bot id=8596581643
+2026-03-02 00:29:48,492 - aiogram.event - INFO - Update id=442940138 is handled. Duration 196 ms by bot id=8596581643
+2026-03-02 00:30:26,809 - aiogram.event - INFO - Update id=442940139 is handled. Duration 465 ms by bot id=8596581643
+2026-03-02 00:30:54,246 - aiogram.event - INFO - Update id=442940140 is handled. Duration 187 ms by bot id=8596581643
+2026-03-02 00:31:00,107 - aiogram.event - INFO - Update id=442940141 is handled. Duration 174 ms by bot id=8596581643
+2026-03-02 00:31:15,438 - aiogram.event - INFO - Update id=442940142 is handled. Duration 200 ms by bot id=8596581643
+2026-03-02 00:31:18,879 - aiogram.event - INFO - Update id=442940143 is handled. Duration 186 ms by bot id=8596581643
+2026-03-02 00:31:22,869 - aiogram.event - INFO - Update id=442940144 is handled. Duration 202 ms by bot id=8596581643
+2026-03-02 00:36:01,807 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2026-03-02 00:36:01,808 - aiogram.dispatcher - INFO - Polling stopped for bot @hiisaabot id=8596581643 - 'Hisaab'
+2026-03-02 00:36:01,808 - aiogram.dispatcher - INFO - Polling stopped
+2026-03-02 00:36:02,060 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2026-03-02 00:36:06,989 - __main__ - INFO - Starting MicroBiz Bot...
+2026-03-02 00:36:07,001 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-03-02 00:36:07,002 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-03-02 00:36:07,002 - apscheduler.scheduler - INFO - Added job "Notifier.send_daily_reminders" to job store "default"
+2026-03-02 00:36:07,002 - apscheduler.scheduler - INFO - Added job "Notifier.send_weekly_report" to job store "default"
+2026-03-02 00:36:07,003 - apscheduler.scheduler - INFO - Scheduler started
+2026-03-02 00:36:07,455 - aiogram.dispatcher - INFO - Start polling
+2026-03-02 00:36:07,662 - aiogram.dispatcher - INFO - Run polling for bot @hiisaabot id=8596581643 - 'Hisaab'
+2026-03-02 00:36:35,099 - aiogram.event - INFO - Update id=442940145 is handled. Duration 605 ms by bot id=8596581643
+2026-03-02 00:36:39,898 - aiogram.event - INFO - Update id=442940146 is handled. Duration 202 ms by bot id=8596581643
+2026-03-02 00:36:50,855 - aiogram.event - INFO - Update id=442940147 is handled. Duration 205 ms by bot id=8596581643
+2026-03-02 00:36:54,524 - aiogram.event - INFO - Update id=442940148 is handled. Duration 188 ms by bot id=8596581643
+2026-03-02 00:36:55,944 - aiogram.event - INFO - Update id=442940149 is handled. Duration 175 ms by bot id=8596581643
+2026-03-02 00:36:57,691 - aiogram.event - INFO - Update id=442940150 is handled. Duration 180 ms by bot id=8596581643
+2026-03-02 00:36:58,945 - aiogram.event - INFO - Update id=442940151 is handled. Duration 191 ms by bot id=8596581643
+2026-03-02 00:37:01,056 - aiogram.event - INFO - Update id=442940152 is handled. Duration 261 ms by bot id=8596581643
+2026-03-02 00:37:07,145 - aiogram.event - INFO - Update id=442940153 is handled. Duration 209 ms by bot id=8596581643
+2026-03-02 00:41:48,120 - aiogram.event - INFO - Update id=442940154 is handled. Duration 244 ms by bot id=8596581643
+2026-03-02 00:41:49,663 - aiogram.event - INFO - Update id=442940155 is handled. Duration 189 ms by bot id=8596581643
+2026-03-02 00:41:50,860 - aiogram.event - INFO - Update id=442940156 is handled. Duration 179 ms by bot id=8596581643
+2026-03-02 00:41:52,107 - aiogram.event - INFO - Update id=442940157 is handled. Duration 188 ms by bot id=8596581643
+2026-03-02 00:41:53,462 - aiogram.event - INFO - Update id=442940158 is handled. Duration 221 ms by bot id=8596581643
+2026-03-02 00:41:54,573 - aiogram.event - INFO - Update id=442940159 is handled. Duration 351 ms by bot id=8596581643
+2026-03-02 00:42:23,873 - aiogram.event - INFO - Update id=442940160 is handled. Duration 340 ms by bot id=8596581643
+2026-03-02 00:42:34,953 - aiogram.event - INFO - Update id=442940161 is not handled. Duration 170 ms by bot id=8596581643
+2026-03-02 00:42:34,954 - aiogram.event - ERROR - Cause exception while process update id=442940161 by bot id=8596581643
+TelegramBadRequest: Telegram server says - Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 71
+Traceback (most recent call last):
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/dispatcher.py", line 320, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/dispatcher.py", line 164, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/middlewares/error.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 58, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/fsm/middleware.py", line 43, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/event/telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/event/handler.py", line 71, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/router.py", line 161, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/router.py", line 153, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/router.py", line 189, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/router.py", line 161, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/router.py", line 153, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/router.py", line 181, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/event/telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/app/middlewares/auth.py", line 49, in __call__
+    result = await handler(event, data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/dispatcher/event/handler.py", line 71, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/app/handlers/inventory.py", line 234, in cmd_stock
+    await message.answer(
+    ...<4 lines>...
+    )
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/methods/base.py", line 82, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/client/bot.py", line 484, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/client/session/base.py", line 259, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/client/session/aiohttp.py", line 177, in make_request
+    response = self.check_response(
+        bot=bot,
+    ...<2 lines>...
+        content=raw_result,
+    )
+  File "/home/chaldev/Code-room/code-collection/micro-business/microbiz_bot/venv/lib64/python3.14/site-packages/aiogram/client/session/base.py", line 121, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 71
+2026-03-02 00:44:56,352 - aiogram.event - INFO - Update id=442940162 is handled. Duration 328 ms by bot id=8596581643
+2026-03-02 00:44:57,362 - aiogram.event - INFO - Update id=442940163 is handled. Duration 213 ms by bot id=8596581643
+2026-03-02 00:44:58,480 - aiogram.event - INFO - Update id=442940164 is handled. Duration 197 ms by bot id=8596581643
+2026-03-02 00:44:59,664 - aiogram.event - INFO - Update id=442940165 is handled. Duration 262 ms by bot id=8596581643
+2026-03-02 00:45:00,738 - aiogram.event - INFO - Update id=442940166 is handled. Duration 208 ms by bot id=8596581643
+2026-03-02 00:45:02,013 - aiogram.event - INFO - Update id=442940167 is handled. Duration 243 ms by bot id=8596581643
+2026-03-02 00:46:57,973 - aiogram.event - INFO - Update id=442940168 is handled. Duration 182 ms by bot id=8596581643
+2026-03-02 00:46:59,720 - aiogram.event - INFO - Update id=442940169 is handled. Duration 224 ms by bot id=8596581643
+2026-03-02 00:47:03,104 - aiogram.event - INFO - Update id=442940170 is handled. Duration 185 ms by bot id=8596581643
+2026-03-02 00:47:04,442 - aiogram.event - INFO - Update id=442940171 is handled. Duration 182 ms by bot id=8596581643
+2026-03-02 00:47:06,579 - aiogram.event - INFO - Update id=442940172 is handled. Duration 201 ms by bot id=8596581643
+2026-03-02 00:47:08,552 - aiogram.event - INFO - Update id=442940173 is handled. Duration 183 ms by bot id=8596581643
+2026-03-02 00:47:09,963 - aiogram.event - INFO - Update id=442940174 is handled. Duration 310 ms by bot id=8596581643
+2026-03-02 00:47:13,010 - aiogram.event - INFO - Update id=442940175 is handled. Duration 209 ms by bot id=8596581643
+2026-03-02 00:47:14,048 - aiogram.event - INFO - Update id=442940176 is handled. Duration 183 ms by bot id=8596581643
+2026-03-02 00:47:15,186 - aiogram.event - INFO - Update id=442940177 is handled. Duration 213 ms by bot id=8596581643
+2026-03-02 00:47:18,680 - aiogram.event - INFO - Update id=442940178 is handled. Duration 221 ms by bot id=8596581643
+2026-03-02 00:47:39,100 - aiogram.event - INFO - Update id=442940179 is handled. Duration 221 ms by bot id=8596581643
+2026-03-02 00:47:45,364 - aiogram.event - INFO - Update id=442940180 is handled. Duration 177 ms by bot id=8596581643
+2026-03-02 00:47:50,015 - aiogram.event - INFO - Update id=442940181 is handled. Duration 245 ms by bot id=8596581643
+2026-03-02 00:47:56,178 - aiogram.event - INFO - Update id=442940182 is handled. Duration 223 ms by bot id=8596581643
+2026-03-02 00:47:58,789 - aiogram.event - INFO - Update id=442940183 is handled. Duration 188 ms by bot id=8596581643
+2026-03-02 00:52:59,574 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2026-03-02 00:52:59,575 - aiogram.dispatcher - INFO - Polling stopped for bot @hiisaabot id=8596581643 - 'Hisaab'
+2026-03-02 00:52:59,576 - aiogram.dispatcher - INFO - Polling stopped
+2026-03-02 00:52:59,827 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2026-03-02 00:53:05,578 - __main__ - INFO - Starting MicroBiz Bot...
+2026-03-02 00:53:05,628 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-03-02 00:53:05,628 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-03-02 00:53:05,629 - apscheduler.scheduler - INFO - Added job "Notifier.send_daily_reminders" to job store "default"
+2026-03-02 00:53:05,629 - apscheduler.scheduler - INFO - Added job "Notifier.send_weekly_report" to job store "default"
+2026-03-02 00:53:05,629 - apscheduler.scheduler - INFO - Scheduler started
+2026-03-02 00:53:06,371 - aiogram.dispatcher - INFO - Start polling
+2026-03-02 00:53:06,622 - aiogram.dispatcher - INFO - Run polling for bot @hiisaabot id=8596581643 - 'Hisaab'
+2026-03-02 00:53:26,178 - aiogram.event - INFO - Update id=442940184 is handled. Duration 638 ms by bot id=8596581643
+2026-03-02 00:54:08,498 - aiogram.event - INFO - Update id=442940185 is handled. Duration 236 ms by bot id=8596581643
+2026-03-02 00:54:09,068 - aiogram.event - INFO - Update id=442940186 is handled. Duration 666 ms by bot id=8596581643
+2026-03-02 00:54:10,647 - aiogram.event - INFO - Update id=442940187 is handled. Duration 220 ms by bot id=8596581643
+2026-03-02 00:54:11,701 - aiogram.event - INFO - Update id=442940188 is handled. Duration 262 ms by bot id=8596581643
+2026-03-02 00:54:14,125 - aiogram.event - INFO - Update id=442940189 is handled. Duration 329 ms by bot id=8596581643
+2026-03-02 00:54:15,553 - aiogram.event - INFO - Update id=442940190 is handled. Duration 194 ms by bot id=8596581643
+2026-03-02 00:57:09,954 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2026-03-02 00:57:09,956 - aiogram.dispatcher - INFO - Polling stopped for bot @hiisaabot id=8596581643 - 'Hisaab'
+2026-03-02 00:57:09,956 - aiogram.dispatcher - INFO - Polling stopped
+2026-03-02 00:57:10,209 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2026-03-02 00:57:14,062 - __main__ - INFO - Starting MicroBiz Bot...
+2026-03-02 00:57:14,076 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-03-02 00:57:14,077 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-03-02 00:57:14,078 - apscheduler.scheduler - INFO - Added job "Notifier.send_daily_reminders" to job store "default"
+2026-03-02 00:57:14,078 - apscheduler.scheduler - INFO - Added job "Notifier.send_weekly_report" to job store "default"
+2026-03-02 00:57:14,078 - apscheduler.scheduler - INFO - Scheduler started
+2026-03-02 00:57:14,835 - aiogram.dispatcher - INFO - Start polling
+2026-03-02 00:57:14,968 - aiogram.dispatcher - INFO - Run polling for bot @hiisaabot id=8596581643 - 'Hisaab'
+2026-03-02 00:57:28,968 - aiogram.event - INFO - Update id=442940191 is handled. Duration 642 ms by bot id=8596581643
+2026-03-02 00:57:34,095 - aiogram.event - INFO - Update id=442940192 is handled. Duration 278 ms by bot id=8596581643
+2026-03-02 00:57:39,310 - aiogram.event - INFO - Update id=442940193 is handled. Duration 207 ms by bot id=8596581643
+2026-03-02 00:57:44,238 - aiogram.event - INFO - Update id=442940194 is handled. Duration 321 ms by bot id=8596581643
+2026-03-02 00:57:45,378 - aiogram.event - INFO - Update id=442940195 is handled. Duration 235 ms by bot id=8596581643
+2026-03-02 00:57:46,711 - aiogram.event - INFO - Update id=442940196 is handled. Duration 234 ms by bot id=8596581643
+2026-03-02 00:57:50,771 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2026-03-02 00:57:50,772 - aiogram.dispatcher - INFO - Polling stopped for bot @hiisaabot id=8596581643 - 'Hisaab'
+2026-03-02 00:57:50,772 - aiogram.dispatcher - INFO - Polling stopped
+2026-03-02 00:57:51,024 - apscheduler.scheduler - INFO - Scheduler has been shut down

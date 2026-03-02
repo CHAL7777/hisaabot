@@ -1,9 +1,9 @@
-from datetime import date, datetime, timedelta
-from typing import List
+from datetime import date, timedelta
 from sqlalchemy.orm import Session
 from app.database.crud import (
     get_total_sales, get_total_expenses,
-    get_sales_by_date, get_today_sales, get_today_expenses
+    get_sales_by_date, get_today_expenses,
+    get_expenses_by_date, get_products, get_customers
 )
 from app.services.calculator import Calculator
 from config import settings
@@ -11,6 +11,21 @@ from config import settings
 class ReportGenerator:
     def __init__(self):
         self.calculator = Calculator()
+
+    @staticmethod
+    def _format_change(change: float) -> str:
+        if change > 0:
+            return f"+{change:.1f}%"
+        if change < 0:
+            return f"{change:.1f}%"
+        return "0.0%"
+
+    @staticmethod
+    def _top_item(grouped_values: dict) -> tuple[str | None, float]:
+        if not grouped_values:
+            return None, 0.0
+        name, amount = max(grouped_values.items(), key=lambda item: item[1])
+        return name, amount
     
     def generate_daily_report(self, db: Session, user_id: int, report_date: date) -> str:
         """Generate daily report"""
@@ -167,4 +182,140 @@ class ReportGenerator:
             monthly_avg = profit / (days / 30)
             report += f"• Monthly Average: {settings.CURRENCY} {monthly_avg:,.0f}\n"
         
+        return report
+
+    def generate_insights_report(self, db: Session, user_id: int, days: int = 7) -> str:
+        """Generate trend-focused business insights with recommendations."""
+        period_end = date.today()
+        period_start = period_end - timedelta(days=days - 1)
+        previous_end = period_start - timedelta(days=1)
+        previous_start = previous_end - timedelta(days=days - 1)
+
+        sales = get_sales_by_date(db, user_id, period_start, period_end)
+        expenses = get_expenses_by_date(db, user_id, period_start, period_end)
+
+        current_sales = self.calculator.calculate_total(sales) if sales else 0.0
+        current_expenses = self.calculator.calculate_total(expenses) if expenses else 0.0
+        current_profit = current_sales - current_expenses
+
+        previous_sales = get_total_sales(db, user_id, previous_start, previous_end)
+        previous_expenses = get_total_expenses(db, user_id, previous_start, previous_end)
+        previous_profit = previous_sales - previous_expenses
+
+        sales_change = self.calculator.calculate_growth(current_sales, previous_sales)
+        expenses_change = self.calculator.calculate_growth(current_expenses, previous_expenses)
+        profit_change = self.calculator.calculate_growth(current_profit, previous_profit)
+
+        sales_by_product = self.calculator.group_by_category(sales, "product_name")
+        sales_by_product = {
+            product: amount
+            for product, amount in sales_by_product.items()
+            if product and str(product).strip()
+        }
+        top_product, top_product_revenue = self._top_item(sales_by_product)
+
+        expense_by_category = self.calculator.group_by_category(expenses, "category")
+        top_expense_category, top_expense_amount = self._top_item(expense_by_category)
+
+        daily_profit = {}
+        cursor = period_start
+        while cursor <= period_end:
+            day_sales = sum(sale.amount for sale in sales if sale.sale_date.date() == cursor)
+            day_expenses = sum(expense.amount for expense in expenses if expense.expense_date.date() == cursor)
+            daily_profit[cursor] = day_sales - day_expenses
+            cursor += timedelta(days=1)
+
+        best_day = max(daily_profit.items(), key=lambda item: item[1]) if daily_profit else None
+        worst_day = min(daily_profit.items(), key=lambda item: item[1]) if daily_profit else None
+
+        products = get_products(db, user_id)
+        low_stock = [product for product in products if product.stock <= product.min_stock]
+
+        customers = get_customers(db, user_id)
+        outstanding_credit = sum(customer.credit_balance for customer in customers if customer.credit_balance > 0)
+
+        profit_margin = (current_profit / current_sales * 100) if current_sales > 0 else 0.0
+        avg_daily_sales = current_sales / days
+        avg_daily_profit = current_profit / days
+
+        report = f"🚀 *Business Insights ({days} Days)*\n"
+        report += f"📅 {period_start.strftime('%d %b')} - {period_end.strftime('%d %b %Y')}\n\n"
+
+        report += "💼 *Performance Snapshot*\n"
+        report += (
+            f"• Sales: {settings.CURRENCY} {current_sales:,.0f} "
+            f"({self._format_change(sales_change)} vs previous {days} days)\n"
+        )
+        report += (
+            f"• Expenses: {settings.CURRENCY} {current_expenses:,.0f} "
+            f"({self._format_change(expenses_change)} vs previous {days} days)\n"
+        )
+        report += (
+            f"• Profit: {settings.CURRENCY} {current_profit:,.0f} "
+            f"({self._format_change(profit_change)} vs previous {days} days)\n"
+        )
+        report += f"• Profit Margin: {profit_margin:.1f}%\n"
+        report += f"• Avg Daily Sales: {settings.CURRENCY} {avg_daily_sales:,.0f}\n"
+        report += f"• Avg Daily Profit: {settings.CURRENCY} {avg_daily_profit:,.0f}\n\n"
+
+        report += "🔎 *Key Drivers*\n"
+        if top_product:
+            report += f"• Top Product: {top_product} ({settings.CURRENCY} {top_product_revenue:,.0f})\n"
+        else:
+            report += "• Top Product: No sales data yet\n"
+
+        if top_expense_category:
+            report += (
+                f"• Biggest Expense: {top_expense_category.title()} "
+                f"({settings.CURRENCY} {top_expense_amount:,.0f})\n"
+            )
+        else:
+            report += "• Biggest Expense: No expense data yet\n"
+
+        if best_day:
+            report += (
+                f"• Best Day: {best_day[0].strftime('%a %d %b')} "
+                f"({settings.CURRENCY} {best_day[1]:,.0f})\n"
+            )
+        if worst_day:
+            report += (
+                f"• Weakest Day: {worst_day[0].strftime('%a %d %b')} "
+                f"({settings.CURRENCY} {worst_day[1]:,.0f})\n"
+            )
+
+        if outstanding_credit > 0:
+            report += f"• Outstanding Credit: {settings.CURRENCY} {outstanding_credit:,.0f}\n"
+        report += "\n"
+
+        report += "📦 *Operations*\n"
+        if low_stock:
+            examples = ", ".join(f"{product.name} ({product.stock})" for product in low_stock[:3])
+            report += f"• Low Stock Items: {len(low_stock)} ({examples})\n"
+        else:
+            report += "• Low Stock Items: 0\n"
+        report += "\n"
+
+        recommendations = []
+        if current_sales == 0:
+            recommendations.append("Record at least one sale daily to generate meaningful trends.")
+        if current_profit < 0:
+            if top_expense_category:
+                recommendations.append(
+                    f"Reduce {top_expense_category.title()} spending first to recover margin."
+                )
+            else:
+                recommendations.append("Reduce costs this week until profit turns positive.")
+        if sales_change < 0:
+            recommendations.append("Sales are down. Try a short promo on your top-selling product.")
+        if low_stock:
+            recommendations.append(f"Restock {low_stock[0].name} soon to avoid stockouts.")
+        if outstanding_credit > 0:
+            recommendations.append("Follow up outstanding customer credit to improve cash flow.")
+        if not recommendations:
+            recommendations.append("Performance is healthy. Keep recording data daily to maintain momentum.")
+
+        report += "🎯 *Recommendations*\n"
+        for recommendation in recommendations[:3]:
+            report += f"• {recommendation}\n"
+
         return report

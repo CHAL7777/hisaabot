@@ -60,6 +60,14 @@ Use /help to see all commands."""
 /report - Daily report
 /weekly - Weekly report
 /monthly - Monthly report
+/insights - 7-day smart business insights
+
+*Team:*
+/team - List team members
+/invite [telegram_id role] - Add/update member
+/set_role [telegram_id role] - Change member role
+/remove_member [telegram_id] - Remove member
+/activity [limit] - Recent activity log
 
 *Settings:*
 /settings - Configure bot
